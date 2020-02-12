@@ -17,7 +17,7 @@
 
 body{
     font-family:  'montserrat-bold', Helvetica, sans-serif;
-    color:#212121;
+    columns: #292c25;;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -30,31 +30,33 @@ body{
  /* HEADINGS */
 
  h1{
-    color: #212121;
-    font-size: 4rem;
+    color: #292c25;
+    font-size: 2rem;
     margin:0;
     padding:0;
   }
 
 
 h2{
-    color: #212121;
-    font-size: 2rem;
+    color: #292c25;
+    font-size: 1.5rem;
     margin:0;
     padding:0;
   }
   
   h3{
+    color: #292c25;
     font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin:0;
     padding:0;
     text-decoration: none;
   }
   
   h4{
+    color: #292c25;
     font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin:0;
     padding:0;
     text-decoration: none;
@@ -63,6 +65,8 @@ h2{
   input[type=text]{
     font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
     font-size: 1rem;
+    color: #292c25;
+
   }
   
   input[type=number]{
@@ -72,12 +76,13 @@ h2{
   
   .navbar{
     font-size: 1rem;
-    color: #212121;
+    color: #292c25;
     text-align: center;
   }
   
   a:link {
-    color: #212121;
+    color: #292c25;
+
     font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
   }
   
@@ -89,13 +94,19 @@ h2{
     font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
   }
   
-  .side-navbar a{
+  .side-navigation a{
     font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
   }
 
  /* SPECIFICS */
  .side-logo{
-    padding-left:5rem;
+    padding-left:2rem;
       font-size:3rem;
       color:white;
     }
+
+
+/* TEXT DECORATION */
+.sub-heading{
+    border-bottom:1px #E0E0E0 solid;
+  }
