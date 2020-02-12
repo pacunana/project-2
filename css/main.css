@@ -1,10 +1,3 @@
-/*  STYLE GUIDE STYLING  */
-body {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  padding: 2rem;
-}
-
 .element {
   padding: 1rem 2rem;
   margin-bottom: 2rem;
@@ -28,6 +21,10 @@ body {
   font-weight: 800;
 }
 
+.button:hover, .button:focus{
+  background-color: #155e9e;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -37,11 +34,62 @@ nav {
   margin-top: 1rem;
 }
 
-/*  TEXT INPUT FIELD W/ LABEL   */
-input {
- border: 2px black solid;
- width: 100%;
- padding: 12px 10px;
- margin: 10px 0px;
- box-sizing: border-box;
+nav a {
+  color: black;
+  font-weight: Bold;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-width: 0.25rem;
+  border-style: solid;
+  margin-right: 1rem;
+  transition: 0.4s;
 }
+
+nav a:hover, nav a:focus {
+  bottom: 1rem;
+  color: white;
+  text-decoration: none;
+  /* border-bottom-width: 1rem; */
+  /* border-bottom-style: solid; */
+  background-color: #0f4c81;
+  transition: 0.5s ease;
+}
+
+/* STYLE GUIDE LAYOUT */
+
+.content {
+    margin-left: 350px; 
+    padding: 0px 10px;
+  }
+
+
+.info-box{
+    padding-bottom: 4rem;
+    padding-top:3rem;
+    padding-left:2rem;
+    }
+
+/* SIDE-BAR NAVIGATION */
+.side-navigation {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4777E2;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.side-navigation a{
+padding-left:2rem;
+padding-top:0.5rem;
+padding-bottom:0.5rem;
+margin-top:1rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: #E0E0E0;
+  display: block;
+}
+
