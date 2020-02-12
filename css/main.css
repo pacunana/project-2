@@ -1,0 +1,63 @@
+/*  STYLE GUIDE STYLING  */
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  padding: 2rem;
+}
+
+.element {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-color: black;
+}
+
+/*  BUTTON ELEMENTS: */
+.button {
+  background-color: #0f4c81;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.button:hover, .button:focus{
+  background-color: #155e9e;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: black;
+  font-weight: Bold;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-width: 0.25rem;
+  border-style: solid;
+  margin-right: 1rem;
+  transition: 0.4s;
+}
+
+nav a:hover, nav a:focus {
+  bottom: 1rem;
+  color: white;
+  text-decoration: none;
+  /* border-bottom-width: 1rem; */
+  /* border-bottom-style: solid; */
+  background-color: #0f4c81;
+  transition: 0.5s ease;
+}
