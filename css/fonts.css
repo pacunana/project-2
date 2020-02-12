@@ -26,3 +26,76 @@ body{
       font-family: 'mr-eaves-regular', "sans-serif";
       font-size: 1rem;
  }
+
+ /* HEADINGS */
+
+ h1{
+    color: #212121;
+    font-size: 4rem;
+    margin:0;
+    padding:0;
+  }
+
+
+h2{
+    color: #212121;
+    font-size: 2rem;
+    margin:0;
+    padding:0;
+  }
+  
+  h3{
+    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+  
+  h4{
+    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+  
+  input[type=text]{
+    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+  }
+  
+  input[type=number]{
+    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+    font-size: 0.75rem;
+  }
+  
+  .navbar{
+    font-size: 1rem;
+    color: #212121;
+    text-align: center;
+  }
+  
+  a:link {
+    color: #212121;
+    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+  }
+  
+  .navbar a{
+    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  }
+  
+  .side-navbar a{
+    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  }
+
+ /* SPECIFICS */
+ .side-logo{
+    padding-left:5rem;
+      font-size:3rem;
+      color:white;
+    }
