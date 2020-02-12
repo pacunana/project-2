@@ -1,6 +1,28 @@
+/* IMPORTING FONTS */
 @font-face {
-    font-family: 'Montserrat Bold';
+    font-family: 'montserrat-bold';
     src: url('../fonts/Montserrat-Bold.ttf');
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'mr-eaves-regular';
+    src: url('../fonts/MrEavesXLModOT-Reg.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* INTIALIZING FONTS */
+
+body{
+    font-family:  'montserrat-bold', Helvetica, sans-serif;
+    color:#212121;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  p{
+      font-family: 'mr-eaves-regular', "sans-serif";
+      font-size: 1rem;
+ }
