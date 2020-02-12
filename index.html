@@ -11,11 +11,12 @@
       </head>
 
    <body>
-
-    <header>
       <h1>REWIND</h1>
 
-      <nav>
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
         <a href="#interactive_elements">Interactive Elements</a>
         <a href="#text_elements">Text Elements</a>
         <a href="#combined_elements">Combined Elements</a>
@@ -24,50 +25,49 @@
         <a href="#citations">Citations</a>
       </nav>
 
+
+
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
-      <h2>Interactive Elements</h2>
+      <h1 class="heading">INTERACTIVE ELEMENTS</h1>
+        <h2 class="sub-heading">In-Text Link</h2>
+        <div class='info-box'>
+            <a href="https://www.suntory.com/brands/196/" class="link">Suntory</a>
+        </div>
 
-      <section class="element">
-        <h3>In-text link</h3>
-        <a id="text-link" href="#">Click</a> to go to the homepage
+        <h2 class="sub-heading">Submit and Reset Button</h2>
+        <div class='info-box'>
+          <button class="button" type="submit" value="Submit">SUBMIT</button>
+          <button class="button" type="reset" value="Reset">RESET</button>
+        </div>
+
+        <h2 class="sub-heading">Text Input Field and Label</h2>
+        <div class='info-box'>
+              <form action="/action_page.php">
+                Input Text:
+                <input type="text" name="input" value="">
+              </form> 
+            </div>
+
+
+        <h2 class="sub-heading">Radio Button Input Field and Label</h2>
+        <div class='info-box'>
+          <form class="radiobuttons">
+            <input type="radio" name="amount" value="one">One<br>
+            <input type="radio" name="amount" value="two">Two<br>
+            <input type="radio" name="amount" value="three">Three<br>
+            <input type="radio" name="amount" value="four">Four<br>
+            <input type="radio" name="amount" value="other">Other
+          </form>
+        </div>
+  
+        <h2 class="sub-heading">Image as Link</h2>
+        <div class='info-box'>
+            <a class="linked-image" href=#><img src="img/drink-1.jpg" alt="strong zero" class="product-photo tester">
+        </a>
+        </div>
+  
       </section>
-
-      <!-- Default Button styling section -->
-      <section class="element">
-        <h3>Navigation Link</h3>
-
-      </section>
-
-
-      <section class="element">
-        <h3>Submit/Reset Buttons</h3>
-        <button class="button" type="submit" value="Submit">Submit</button>
-        <button class="button" type="reset" value="Reset">Reset</button>
-      </section>
-
-      <section class="element">
-        <h3>Text Input Field with Label</h3>
-        <p>WRITE A REVIEW HERE</p>
-        <form>
-          Name: <input type="text" name="fname" placeholder="Enter Name Here"><br>
-          Review: <input type="text" name="lname" placeholder="Write Your Comments/Questions Here"><br>
-          <button class="button" type="submit" value="Submit">Submit Review</button>
-        </form>
-      </section>
-
-
-      <section class="element">
-        <h3>Radio Button with Label</h3>
-      </section>
-
-
-      <section class="element">
-        <h3>Image as a Link</h3>
-      </section>
-
-
-    </section>
     <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
