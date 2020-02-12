@@ -1,3 +1,8 @@
+/* GENERAL */
+*{
+  scroll-behavior: smooth;
+}
+
 .button:hover, .button:focus{
   background-color: #507BC5;
   color: white;
