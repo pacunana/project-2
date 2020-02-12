@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
         <title>PO2 Company Style Guide</title>
         <link href="css/main.css" rel="stylesheet">
+        <link href="css/interactions.css" rel="stylesheet">
         <link href="css/fonts.css" rel="stylesheet">
       </head>
 
@@ -34,28 +35,25 @@
 
       <!-- Default Button styling section -->
       <section class="element">
-
         <h3>Navigation Link</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
 
       </section>
 
 
       <section class="element">
         <h3>Submit/Reset Buttons</h3>
+        <button class="button" type="submit" value="Submit">Submit</button>
+        <button class="button" type="reset" value="Reset">Reset</button>
       </section>
-
 
       <section class="element">
         <h3>Text Input Field with Label</h3>
+        <p>WRITE A REVIEW HERE</p>
+        <form>
+          Name: <input type="text" name="fname" placeholder="Enter Name Here"><br>
+          Review: <input type="text" name="lname" placeholder="Write Your Comments/Questions Here"><br>
+          <button class="button" type="submit" value="Submit">Submit Review</button>
+        </form>
       </section>
 
 
