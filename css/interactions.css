@@ -1,26 +1,6 @@
 .button:hover, .button:focus{
-  background-color: #155e9e;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
-
-nav a {
-  color: black;
-  font-weight: Bold;
-  padding: 10px 25px;
-  text-decoration: none;
-  border-width: 0.2rem;
-  border-style: solid;
-  margin-right: 1rem;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
-
-nav a:hover, nav a:focus {
-  bottom: 1rem;
-  color: white;
   background-color: #507BC5;
-  transition: 0.5s ease;
+  color: white;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }

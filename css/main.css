@@ -3,9 +3,9 @@
 
 /*  BUTTON ELEMENTS: */
 .button {
-  background-color: #E1E1E1;
+  background-color: #15151;
   border: none;
-  color: white;
+  color: #151515;
   padding: 15px 32px;
   margin: 15px 0px;
   text-align: center;
@@ -14,15 +14,6 @@
   cursor: pointer;
   font-size: 12px;
   font-weight: 800;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
 }
 
 /* STYLE GUIDE LAYOUT */
@@ -61,4 +52,3 @@ nav {
   color: #E0E0E0;
   display: block;
 }
-
