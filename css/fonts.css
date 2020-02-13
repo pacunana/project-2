@@ -111,6 +111,9 @@ a:link {
 
 
 /* TEXT DECORATION */
+.heading {
+  margin-bottom: 1rem;
+}
 .sub-heading {
   border-bottom:1px #E0E0E0 solid;
 }
