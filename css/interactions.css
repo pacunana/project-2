@@ -6,7 +6,7 @@
 }
 
 a:visited {
-  color: #212121;
+  color: #151515;
 }
 
 a:hover {
@@ -22,14 +22,14 @@ a:focus{
 }
 
 .active{
-  background-color: #E5D1B3;
+  background-color: #507BC5;
 }
 
 a.sample-link-button:hover{
   background:#E5D1B3;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  color:#212121;
+  color:#151515;
 }
 
 .button:focus, .button:hover {
@@ -41,7 +41,7 @@ a.sample-link-button:hover{
 
 .button:active{
   background-color:#507BC5;
-  color:#212121;
+  color:#151515;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }

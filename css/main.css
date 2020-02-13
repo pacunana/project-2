@@ -30,7 +30,7 @@ ul, ol{
 
 /* BUTTONS */
 .button{
-  background-color:#E1E1E1;
+  background-color: #E1E1E1;
   padding: 1rem 2em;
   cursor: pointer;
   width:8rem;
@@ -60,7 +60,7 @@ a.sample-link-button{
 
 .navbar{
   overflow: hidden;
-  background-color: #E0E0E0;
+  background-color: #E1E1E1;
 }
 
 .navbar div{
@@ -73,24 +73,23 @@ a.sample-link-button{
 
 .navbar .nav-link{
   float: left;
-  display:block;
+  display: block;
   padding: 1.5em 1.5rem;
 }
 
 .navbar .nav-link:hover{
-  background-color: #E5D1B3;
-  color: #212121;
+  background-color: #507BC5;
+  color: #E1E1E1;
 }
 
 .side-navbar .nav-link:hover{
-  background-color: #E5D1B3;
-  color: #212121;
+  background-color: #E1E1E1;
+  color: #151515;
 }
 .navbar .nav-link:active{
-  background-color: #4777E2;
+  background-color: #507BC5;
   color: white;
 }
-
 
 .navbar .toggle{
   padding: 1em;
@@ -304,6 +303,7 @@ input[type=radio]{
   background-color: #4777E2;
   overflow-x: hidden;
   padding-top: 20px;
+  color: #151515;
 }
 
 .side-navbar a{
@@ -313,7 +313,7 @@ input[type=radio]{
   margin-top:1rem;
   text-decoration: none;
   font-size: 25px;
-  color: #E0E0E0;
+  color: #151515;
   display: block;
 }
 
@@ -323,7 +323,7 @@ input[type=radio]{
 }
 
 .side-logo{
-padding-left:5rem;
+  padding-left:5rem;
   font-size:6rem;
   color:white;
 }
