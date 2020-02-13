@@ -1,29 +1,108 @@
 /* GENERAL */
+
+/* ANCHOR TAGS */
 *{
   scroll-behavior: smooth;
 }
-
-.button:hover, .button:focus{
-  background-color: #507BC5;
-  color: white;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
-
-input:hover {
- border: 2px #507BC5 solid;
- -webkit-transition-duration: 0.2s; /* Safari */
- transition-duration: 0.2s;
-}
-
-input:focus {
- background: white;
-}
-
-/* NAVIGATION BAR INTERACTIONS */
-.side-navigation .nav-link:hover{
-  background-color: #e1e1e1;
+a:visited {
   color: #212121;
+}
+a:hover {
+  color: #4777E2;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
+
+a:focus{
+  border: none;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+.active{
+  background-color: #E5D1B3;
+}
+
+
+a.sample-link-button:hover{
+  background:#E5D1B3;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color:#212121;
+  }
+
+.button:focus{
+  background-color: #E5D1B3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color:#E5D1B3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:active{
+  background-color:#E5D1B3;
+  color:#212121;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+input[type=text]:hover{
+  
+  border: .5px #212121 solid;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+input[type=text]:active{
+  background-color:#E0E0E0;
+}
+
+input[type=text]:focus{
+  background-color:#E0E0E0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+input[type=number]:hover{
+  background-color:#E0E0E0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+input[type=number]:active{
+  background-color:#E0E0E0;
+}
+
+input[type=number]:focus{
+  background-color:#E0E0E0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a img:hover{
+ 
+opacity:40%;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+a img:focus{
+background: #4777E2;  
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+
+.filter-option:hover,.filter-option:active {
+  text-decoration: underline;
+}
+
+textarea:hover{
+  border: .5px #212121 solid;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+

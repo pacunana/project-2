@@ -1,54 +1,339 @@
-/* GENERAL */
-
-
-/*  BUTTON ELEMENTS: */
-.button {
-  background-color: #15151;
-  border: none;
-  color: #151515;
-  padding: 15px 32px;
-  margin: 15px 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-/* STYLE GUIDE LAYOUT */
-
-.content {
-  margin-left: 350px;
-  padding: 0px 10px;
-}
+/* GENERAL LAYOUT */
 
 .info-box{
   padding-bottom: 4rem;
   padding-top:3rem;
   padding-left:2rem;
-}
-
-/* SIDE-BAR NAVIGATION */
-.side-navigation {
-  height: 100%;
-  width: 350px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #507BC5;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.side-navigation a{
+  }
+  
+  .indent{
+    padding-bottom: 4rem;
+    padding-left:2rem;
+    display:flex;
+    flex-direction: column;
+    }
+  
+  .citation-link{
+    padding:0.5rem 0;
+  }
+  
+  ul, ol{
+  margin-top:0;
+  margin-bottom:0;
+  padding-bottom:0;
+  }
+  .heading{
+    color:#4777E2;
+    padding-top:1rem;
+  
+  }
+  
+  /* BUTTONS */
+  .button{
+    background-color:#E0E0E0;
+    padding: 1rem 2em;
+    cursor: pointer;
+    width:8rem;
+    margin-right:1rem;
+    border: none;
+    border-radius: 4px;
+  
+  }
+  
+  a.sample-link-button{
+    background:#E0E0E0;
+      padding: 1.5em 1.5rem;
+      border-radius: 4px;
+  
+    }
+  
+  /* SUBMIT AND RESET */
+  .srbutton{
+    display: flex inline;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  
+  /* NAVIGATION BAR */
+  
+  .navbar{
+    overflow: hidden;
+    background-color: #E0E0E0;
+  }
+  
+  .navbar div{
+    display:none;
+  }
+  
+  .navbar .toggle{
+    display: inline-block;
+  }
+  
+  .navbar .nav-link{
+    float: left;
+    display:block;
+    padding: 1.5em 1.5rem;
+  }
+  
+  .navbar .nav-link:hover{
+    background-color: #E5D1B3;
+    color: #212121;
+  }
+  
+  .side-navbar .nav-link:hover{
+    background-color: #E5D1B3;
+    color: #212121;
+  }
+  .navbar .nav-link:active{
+    background-color: #4777E2;
+    color: white;
+  }
+  
+  
+  .navbar .toggle{
+    padding: 1em;
+    color:black; 
+    vertical-align:middle;
+  }
+  
+  /* TEXT INPUT */
+  
+  /* help from https://www.bitdegree.org/learn/css-form */
+  input[type=text]{
+    background-color: white;
+    border: 0.5px #E0E0E0 solid;
+    border-radius: 4px;
+    /* width: 10rem; */
+    padding:0.5rem 0.75rem;
+  }
+  
+  
+  /* NUMBER INPUT */
+  /* help from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_number */
+  input[type=number]{
+    background-color: white;
+    text-align: center;
+    border: 0.5px #212121 solid;
+    width: 3rem;
+    padding:0.5rem 0.5rem;
+  }
+  
+  
+  /* RADIO BUTTON */
+  input[type=radio]{
+    margin-right:1rem;
+  }
+  
+  /* PRODUCT PAGE */
+  
+  .banner{
+    border-bottom: #E5D1B3 solid 2px;
+    padding-top: 2rem;
+  }
+  
+  .filter-section{
+    padding-top:9.5rem;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .filter-category{
+    background-color: white;
+    width:auto;
+    margin:0;
+    padding-right: 0.5rem;
+    padding-left:0.5rem;
+    padding-top:0.4rem;
+    padding-bottom:0.5rem;
+  }
+  
+  .filter-category.active:after{
+    content: ' \002D';
+    font-weight: bold;
+    float: right;
+  }
+  
+  .filter-category:after{
+    content: ' \002B';
+    font-weight: bold;
+    float: right;
+  }
+  
+  .filter-list{
+    padding-left:2rem;
+    display:flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
+  }
+  
+  .filter-option{
+    text-decoration: none;
+    margin: 0.1rem 0;
+  }
+  
+  .listing-section{
+    margin-top:2rem;
+    flex-direction: row;
+  
+  }
+  
+  .product-photo{
+    margin-bottom:1rem;
+  }
+  
+  .tester{
+    width:50%;
+    height:50%;
+    border:none;
+  }
+  
+  
+  /* PAYMENT FORM */
+  
+  .confirm-button{
+    margin-left: 1rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width:50%;
+    text-align: center;
+  }
+  
+  .test-form{
+    width:50%;
+  }
+  .form{
+    margin: 2rem 0;
+  }
+  
+  .product-preview{
+    margin-top: 2rem;
+  }
+  
+  .payment-form{
+    padding-left:1rem;
+    padding-right: 3em;
+    
+    border-right: .5px #E0E0E0 solid;
+    height:100%;
+  }
+  
+  .product{
+    margin-top:1rem;
+  }
+  
+  .checkout-header{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    border-bottom: #E5D1B3 2px solid;
+  }
+  
+  .cart-name-preview{
+    padding-bottom:0.1rem;
+    border-bottom:1px #E0E0E0 solid;
+    display:block;
+  }
+  
+  .quantity{
+    margin-top:1.5rem;
+    margin-bottom:0.2rem;
+  }
+  
+  /* CART */
+  .price{
+    padding-top:0.6rem;
+  }
+  .checkout{
+    padding:0;
+  }
+  
+  .shipping{
+    padding:1rem 1rem;
+  }
+  .purchase{
+    width:100%;
+    text-align: center;
+  }
+  
+  .checkout-image{
+    width:30%;
+    height:30%;
+    border: solid #E0E0E0 1px;
+  }
+  
+  .cart-guide{
+  padding-left:2rem;
+  padding-right:1rem;
+  padding-bottom:2rem;
+  height:100%;
+  }
+  
+  .cart-info{
+    padding-left:1rem;
+  }
+  /* OTHER */
+  .art-direction{
+    width:50%;
+    height:50%;
+  }
+  
+  .right-text{
+    float:right;
+  }
+  
+  
+  .nav-tester{
+    display:block;
+    width:auto;
+    justify-content: space-evenly;
+  }
+  
+  .guide{
+    width:50%;
+  }
+  
+  
+  .side-navbar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4777E2;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .side-navbar a{
   padding-left:2rem;
   padding-top:0.5rem;
   padding-bottom:0.5rem;
   margin-top:1rem;
-  text-decoration: none;
-  font-size: 25px;
-  color: #E0E0E0;
-  display: block;
-}
+    text-decoration: none;
+    font-size: 25px;
+    color: #E0E0E0;
+    display: block;
+  }
+  
+  .test-content {
+    margin-left: 350px; 
+    padding: 0px 10px;
+  }
+  
+  .side-logo{
+  padding-left:5rem;
+    font-size:6rem;
+    color:white;
+  }
+  
+  .sub-heading{
+    border-bottom:1px #E0E0E0 solid;
+  }
+  
+  .product-photo{
+  
+    border-bottom:1px #E0E0E0 solid;
+  }
+  

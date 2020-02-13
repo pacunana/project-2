@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>PO2 Shopping Cart</title>
+    <link rel="stylesheet" type='text/css' href="css/main.css">
+    <link rel="stylesheet" type='text/css' href="css/interactions.css">
+    <link rel="stylesheet" type='text/css' href="css/fonts.css">
+    <link rel="stylesheet" type='text/css' href="css/response.css">
+  </head>
+
+  <body>
+
+<!-- HEADING SECTION OF WEBSITE -->
+<div class= logo>
+<h1 class="logo">AZN FLO</h1>
+</div>
+
+<div class= "navigation">
+<div class ="navbar">
+<div class ="left">
+  <a href="#" class="nav-link">NEW ARRIVALS</a>
+  <a href="#" class="nav-link">TEAS</a>
+  <a href="#" class="nav-link">SODAS</a>
+  <a href="#" class="nav-link">JUICES</a>
+  <a href="#" class="nav-link">ALCOHOLIC</a>
+</div>
+
+<div class ="right">
+  <a href="#" class="nav-link">SIGN IN</a>
+  <a href="#" class="nav-link active">CART</a>
+</div>
+</div>
+</div>
+
+<div class="checkouts">
+  <div class="checkout-header">
+  <h1>CONFIRM YOUR PURCHASE</h1>
+</div>
+<div class="checkout">
+   
+<div class= "payment-form">
+    <h2 class="payment-title">Payment Form</h2>
+  <div class="form">
+
+      <form action="/action_page.php">
+
+        <div class="form-row">
+          <label>First Name:</label>
+          <input type="text" name="fname" value="" placeholder="Patrick">
+        </div>  
+        <div class="form-row">
+            <label>Last Name:</label>
+            <input type="text" name="lname" value="" placeholder="Pacunana">
+        </div> 
+        <div class="form-row">
+            <label>Country:</label>
+            <input type="text" name="country" value="" placeholder="United States">
+        </div> 
+        <div class="form-row">
+            <label>City:</label>
+            <input type="text" name="state" value="" placeholder="Los Angeles">
+        </div> 
+        <div class="form-row">
+          <label>Address</label>
+          <input type="text" name="address" value="" placeholder="321 Sunset Blvd">
+        </div>  
+        <div class="form-row">
+            <label>Postal Code</label>
+            <input type="text" name="postal-code" value="" placeholder="19475832">
+        </div> 
+        <div class="form-row">
+            <label>Card Number:</label>
+            <input type="text" name="card-number" value="" placeholder="9999 9998 7777 6666">
+        </div>  
+        <div class="form-row">
+            <label>Name on Card:</label>
+            <input type="text" name="noc" value="" placeholder="Patrick Pacunana">
+        </div> 
+        <div class="form-row">
+            <label>Expiry Date:</label>
+            <input type="text" name="expiry" value="" placeholder="03/22">
+        </div> 
+          <div class="form-row">
+              <label >CVV:</label>
+              <input type="text" name="cvv" value="" placeholder="244">
+          </div> 
+          
+        </form>
+    
+  </div>
+  <button class="button purchase">Make Purchase</button>
+
+</div>
+
+
+<div class="cart-guide">
+      <h2>Order Summary</h2>
+      <div class="product-preview">
+      <div class="product product-1">
+      <img src="img/drink-1.jpg" alt="kazama jun" class="checkout-image">
+        <div class="cart-info">
+      <h2 class="cart-name-preview">KAZAMA JUN</h2>
+      <h3 class="price">$8</h3>
+      <h4 class="quantity">Quantity: 1</h4>
+    </div> 
+    </div>
+    <div class="product product-2">
+        <img src="img/drink-2.jpg" alt="asahi" class="checkout-image">
+         <div class="cart-info">
+       <h2 class="cart-name-preview">ASAHI</h2>
+       <h3 class="price">$15</h3>
+       <h4 class="quantity">Quantity: 3</h4>
+     </div> 
+     </div>
+     <div class="product product-3">
+        <img src="img/drink-3.jpg" alt="yamanashi" class="checkout-image">
+         <div class="cart-info">
+       <h2 class="cart-name-preview">YAMANASHI</h2>
+       <h3 class="price">$11</h3>
+       <h4 class="quantity">Quantity: 1</h4>
+       
+     </div> 
+     </div>
+     <div class="product product-4">
+        <img src="img/drink-4.jpg" alt="peach belg" class="checkout-image">
+         <div class="cart-info">
+       <h2 class="cart-name-preview">PEACH BELG</h2>
+       <h3 class="price">$5</h3>
+       <h4 class="quantity">Quantity: 2</h4>
+     </div> 
+     </div>
+    </div>
+  <div class="shipping">
+    <h4 class=shipping-text>Sub-total<span class="right-text">$74</span></h4>
+    <h4 class=shipping-text>Shipping + Handling<span class="right-text">$30</span></h4>
+    <h4 class=shipping-text>Tax<span class="right-text">$13</span></h4>
+  </div>
+  <h2 class="total-price">Total Price:<span class="right-text">$117</span></h2>
+
+</div>
+</div>
+
+</div>
+</body>
+
+
+</html>

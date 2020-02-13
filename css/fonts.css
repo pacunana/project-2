@@ -110,3 +110,42 @@ h2{
 .sub-heading{
     border-bottom:1px #E0E0E0 solid;
   }
+
+  .button{
+    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+      font-size: 1rem;
+      text-align: center;
+    }
+    
+    .filter-category{
+      text-align: left;
+    }
+    
+    .radiobuttons{  
+      font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif, serif;
+      }
+    
+    .checkout-title{
+      margin:3rem;
+      }
+    
+      .shipping-text{
+        font-size: 1rem;
+        color:lightgrey;
+        padding: 0.4rem 0;
+      }
+      
+      .question{
+        font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        padding:0;
+      }
+    
+      a.sample-link-button{
+        font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+      font-size: 1rem;
+      padding: 1rem 2em;
+      text-align: center;
+      text-decoration: none;
+      }
