@@ -258,9 +258,8 @@
   }
   
   .checkout-image{
-    width:30%;
-    height:30%;
-    border: solid #E0E0E0 1px;
+    width:40%;
+    height:40%;
   }
   
   .cart-guide{
@@ -272,6 +271,7 @@
   
   .cart-info{
     padding-left:1rem;
+    padding-top:1rem;
   }
   /* OTHER */
   .art-direction{
