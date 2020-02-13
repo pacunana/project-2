@@ -26,10 +26,10 @@ a:focus{
 }
 
 a.sample-link-button:hover{
-  background:#E5D1B3;
+  background:#4777E2;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  color:#151515;
+  color:#E1E1E1;
 }
 
 .button:focus, .button:hover {
