@@ -89,11 +89,15 @@ h2{
   .nav-link{
     text-decoration: none;
   }
-  
+
   .navbar a{
     font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
   }
   
+  .nav-tester a{
+    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  }
+
   .side-navigation a{
     font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
   }
