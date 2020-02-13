@@ -4,9 +4,11 @@
 *{
   scroll-behavior: smooth;
 }
+
 a:visited {
   color: #212121;
 }
+
 a:hover {
   color: #4777E2;
   -webkit-transition-duration: 0.2s; /* Safari */
@@ -23,35 +25,29 @@ a:focus{
   background-color: #E5D1B3;
 }
 
-
 a.sample-link-button:hover{
   background:#E5D1B3;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    color:#212121;
-  }
-
-.button:focus{
-  background-color: #E5D1B3;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  color:#212121;
 }
 
-.button:hover{
-  background-color:#E5D1B3;
+.button:focus, .button:hover {
+  background-color: #507BC5;
+  color: #E1E1E1;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
 .button:active{
-  background-color:#E5D1B3;
+  background-color:#507BC5;
   color:#212121;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
 input[type=text]:hover{
-  
+
   border: .5px #212121 solid;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -65,7 +61,6 @@ input[type=text]:focus{
   background-color:#E0E0E0;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-
 }
 
 input[type=number]:hover{
@@ -85,15 +80,15 @@ input[type=number]:focus{
 }
 
 a img:hover{
- 
-opacity:40%;
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
+  opacity:40%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+
 a img:focus{
-background: #4777E2;  
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
+  background: #4777E2;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .filter-option:hover,.filter-option:active {
@@ -105,4 +100,3 @@ textarea:hover{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-
