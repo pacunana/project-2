@@ -126,7 +126,7 @@ input[type=radio]{
 /* PRODUCT PAGE */
 
 .banner{
-  border-bottom: #E5D1B3 solid 2px;
+  border-bottom: #4777E2 solid 2px;
   padding-top: 2rem;
 }
 
@@ -224,7 +224,7 @@ input[type=radio]{
   margin-bottom:3rem;
   margin-left:1rem;
   margin-right:1rem;
-  border-bottom: #E5D1B3 2px solid;
+  border-bottom: #4777E2 2px solid;
 }
 
 .cart-name-preview{
@@ -257,7 +257,6 @@ input[type=radio]{
 .checkout-image{
   width:30%;
   height:30%;
-  border: solid #E0E0E0 1px;
 }
 
 .cart-guide{
