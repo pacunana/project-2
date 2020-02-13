@@ -294,7 +294,6 @@ input[type=radio]{
   width:50%;
 }
 
-
 .side-navbar {
   height: 100%;
   width: 350px;
@@ -306,6 +305,7 @@ input[type=radio]{
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 .side-navbar a{
   padding-left:2rem;
   padding-top:0.5rem;
