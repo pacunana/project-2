@@ -1,155 +1,155 @@
 /* IMPORTING FONTS */
 @font-face {
-    font-family: 'montserrat-bold';
-    src: url('../fonts/Montserrat-Bold.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'mr-eaves-regular';
-    src: url('../fonts/MrEavesXLModOT-Reg.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'mr-eaves-regular';
+  src: url('../fonts/MrEavesXLModOT-Reg.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* INTIALIZING FONTS */
 
-body{
-    font-family:  'montserrat-bold', Helvetica, sans-serif;
-    columns: #292c25;;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+body {
+  font-family:  'montserrat-bold', Helvetica, sans-serif;
+  color: #292c25;;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
-  p{
-      font-family: 'mr-eaves-regular', "sans-serif";
-      font-size: 1rem;
- }
+p {
+  font-family: 'mr-eaves-regular', "sans-serif";
+  font-size: 1rem;
+}
 
  /* HEADINGS */
 
- h1{
-    color: #292c25;
-    font-size: 2rem;
-    margin:0;
-    padding:0;
-  }
+h1 {
+  color: #292c25;
+  font-size: 2rem;
+  margin:0;
+  padding:0;
+}
 
 
-h2{
-    color: #292c25;
-    font-size: 1.5rem;
-    margin:0;
-    padding:0;
-  }
-  
-  h3{
-    color: #292c25;
-    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-    margin:0;
-    padding:0;
-    text-decoration: none;
-  }
-  
-  h4{
-    color: #292c25;
-    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    margin:0;
-    padding:0;
-    text-decoration: none;
-  }
-  
-  input[type=text]{
-    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    color: #292c25;
+h2 {
+  color: #292c25;
+  font-size: 1.5rem;
+  margin:0;
+  padding:0;
+}
 
-  }
-  
-  input[type=number]{
-    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-    font-size: 0.75rem;
-  }
-  
-  .navbar{
-    font-size: 1rem;
-    color: #292c25;
-    text-align: center;
-  }
-  
-  a:link {
-    color: #292c25;
+h3 {
+  color: #292c25;
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
 
-    font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
-  }
-  
-  .nav-link{
-    text-decoration: none;
-  }
+h4 {
+  color: #292c25;
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
 
-  .navbar a{
-    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-  }
-  
-  .nav-tester a{
-    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-  }
+input[type=text] {
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: #292c25;
 
-  .side-navigation a{
-    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-  }
+}
 
- /* SPECIFICS */
- .side-logo{
-    padding-left:2rem;
-      font-size:3rem;
-      color:white;
-    }
+input[type=number] {
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+  font-size: 0.75rem;
+}
+
+.navbar {
+  font-size: 1rem;
+  color: #292c25;
+  text-align: center;
+}
+
+a:link {
+  color: #292c25;
+
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.navbar a {
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+}
+
+.nav-tester a {
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+}
+
+.side-navigation a {
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+}
+
+/* SPECIFICS */
+.side-logo {
+  padding-left:2rem;
+  font-size:3rem;
+  color:white;
+}
 
 
 /* TEXT DECORATION */
-.sub-heading{
-    border-bottom:1px #E0E0E0 solid;
+.sub-heading {
+  border-bottom:1px #E0E0E0 solid;
+}
+
+.button {
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.filter-category{
+  text-align: left;
+}
+
+.radiobuttons{
+  font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif, serif;
   }
 
-  .button{
-    font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-      font-size: 1rem;
-      text-align: center;
-    }
-    
-    .filter-category{
-      text-align: left;
-    }
-    
-    .radiobuttons{  
-      font-family: 'mr-eaves-regular', 'Times New Roman', Times, serif, serif;
-      }
-    
-    .checkout-title{
-      margin:3rem;
-      }
-    
-      .shipping-text{
-        font-size: 1rem;
-        color:lightgrey;
-        padding: 0.4rem 0;
-      }
-      
-      .question{
-        font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-        font-size: 1.2rem;
-        font-weight: bolder;
-        padding:0;
-      }
-    
-      a.sample-link-button{
-        font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-      font-size: 1rem;
-      padding: 1rem 2em;
-      text-align: center;
-      text-decoration: none;
-      }
+.checkout-title{
+  margin:3rem;
+  }
+
+.shipping-text{
+  font-size: 1rem;
+  color:lightgrey;
+  padding: 0.4rem 0;
+}
+
+.question{
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding:0;
+}
+
+a.sample-link-button{
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 2em;
+  text-align: center;
+  text-decoration: none;
+}

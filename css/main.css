@@ -44,9 +44,7 @@ a.sample-link-button{
   background:#E0E0E0;
     padding: 1.5em 1.5rem;
     border-radius: 4px;
-
-  }
-  }
+}
 
 /* SUBMIT AND RESET */
 .srbutton{
@@ -333,6 +331,5 @@ input[type=radio]{
 }
 
 .product-photo{
-
   border-bottom:1px #E0E0E0 solid;
 }
