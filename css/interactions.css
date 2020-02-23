@@ -5,21 +5,16 @@
   scroll-behavior: smooth;
 }
 
-a:visited {
-  color: #151515;
-}
-
-a:hover {
-  color: #4777E2;
-  -webkit-transition-duration: 0.2s; /* Safari */
+.menu-items a:hover{
+  border-bottom: 3px solid white;
+  border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
   transition-duration: 0.2s;
 }
 
-a:focus{
-  border: none;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
+.menu-items a, .menu-items a:active, .menu-items a:active{
+  color:#E1E1E1;
 }
+
 
 .active{
   background-color: #507BC5;

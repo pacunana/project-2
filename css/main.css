@@ -1,5 +1,10 @@
 /* GENERAL LAYOUT */
 
+
+body{
+  padding:0;
+  margin:0;
+}
 .info-box{
   padding-bottom: 4rem;
   padding-top:3rem;
@@ -125,10 +130,10 @@ input[type=radio]{
 
 /* PRODUCT PAGE */
 
-.banner{
+/* .banner{
   border-bottom: #4777E2 solid 2px;
   padding-top: 2rem;
-}
+} */
 
 .filter-section{
   padding-top:9.5rem;
@@ -331,4 +336,54 @@ input[type=radio]{
 
 .product-photo{
   border-bottom:1px #E0E0E0 solid;
+}
+
+/* NAVIGATION BAR STYLING */
+
+nav{
+  background-color: #151515;
+
+}
+.banner-line{
+  width: 20%;
+  height: auto;
+  background: linear-gradient(270deg, #B33A37 0%, rgba(179, 58, 55, 0) 100%);
+  flex:2;}
+
+.mirror{
+  transform: rotate(-180deg);
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:0;
+  padding: 3rem 0 0 0;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type:  none;
+  padding:0;
+  margin:1rem 2rem 1rem 2rem;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: auto;
+  background-color: #151515;
+}
+.menu-items{
+  padding: 1.5rem 0;
+}
+.menu-items a {
+  padding: 1rem 1.5rem;
+margin:0 1rem;
 }
