@@ -8,7 +8,7 @@
   <link rel="stylesheet" type='text/css' href="css/fonts.css">
   <link rel="stylesheet" type='text/css' href="css/response.css">
   <link rel="stylesheet" type='text/css' href="css/interactions.css">
-  <script type="text/javasctipt" src="java/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <div class="banner-line"></div>
         </div>
       </div>
-      <div id="navbar">
+      <nav id="navbar" class="nav-bar">
         <ul class="menu-items">
           <li><a href="javascript:void(0)">New Releases</a></li>
           <li><a href="javascript:void(0)">Vinyls</a></li>
@@ -30,6 +30,11 @@
           <li><a href="javascript:void(0)">Cart</a></li>
           <li><a href="javascript:void(0)">Search</a></li>
       </ul>
+    </nav>
+    <div id="toggle-id" class="toggle menu-items">
+    </li><a href="javascript:void(0);">
+      Menu</li>
+    </a>
     </div>
 
     <div class="content">
@@ -55,15 +60,27 @@
       window.onscroll = function() {myFunction()};
       
       var navbar = document.getElementById("navbar");
+      var toggle = document.getElementById("toggle-id");
       var sticky = navbar.offsetTop;
       
       function myFunction() {
         if (window.pageYOffset >= sticky) {
           navbar.classList.add("sticky")
+          toggle.classList.add("sticky")
         } else {
           navbar.classList.remove("sticky");
+          toggle.classList.remove("sticky");
         }
       }
+
+      function classToggle() {
+  const navs = document.querySelectorAll(".nav-bar")
+  
+  navs.forEach(nav => nav.classList.toggle("toggle-show"));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
       </script>
 </body>
 

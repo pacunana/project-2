@@ -6,9 +6,9 @@
 }
 
 .menu-items a:hover{
-  border-bottom: 3px solid white;
   border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
-  transition-duration: 0.2s;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s; 
 }
 
 .menu-items a, .menu-items a:active, .menu-items a:active{

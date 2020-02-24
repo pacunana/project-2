@@ -280,3 +280,17 @@ textarea{
       max-width:300px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-bar{
+    flex-direction: column;
+  }
+  .menu-items {
+    display:none;
+  }
+  .toggle {
+
+    display: flex;
+    justify-content: center;
+  }
+}
