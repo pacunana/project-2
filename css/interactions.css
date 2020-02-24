@@ -33,15 +33,15 @@ a.sample-link-button:hover{
 }
 
 .button:focus, .button:hover {
-  background-color: #507BC5;
-  color: #E1E1E1;
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
 .button:active{
-  background-color:#507BC5;
-  color:#151515;
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
