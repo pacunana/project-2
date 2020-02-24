@@ -201,6 +201,12 @@ input[type=radio]{
 
 }
 
+.selected {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .product {
   max-width: 50%;
   padding: 14px;
@@ -211,16 +217,9 @@ img {
   width: auto;
 }
 
-.selected {
-  display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 summary {
-  font-style: italic;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 details {
@@ -269,6 +268,16 @@ details {
   margin-top: 1.5rem;
   border-bottom: 0.05rem solid black;
   margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.review-text {
+  margin-right: 40px;
+}
+
+.review-time {
+  margin-left: auto;
+  padding-left: auto;
 }
 
 /* PAYMENT FORM */
