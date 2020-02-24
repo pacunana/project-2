@@ -46,6 +46,22 @@ a.sample-link-button:hover{
   transition-duration: 0.4s;
 }
 
+/*  PRODUCT BUTTON */
+
+.button-product:focus, .button-product:hover {
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button-product:active{
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 input[type=text]:hover{
 
   border: .5px #212121 solid;
