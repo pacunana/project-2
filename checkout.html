@@ -2,7 +2,7 @@
 <html lang=en>
   <head>
     <meta charset="utf-8">
-    <title>Rewind | Shopping Cart</title>
+    <title>Rewind | Complete Your Purchase</title>
     <link rel="stylesheet" type='text/css' href="css/main.css">
     <link rel="stylesheet" type='text/css' href="css/interactions.css">
     <link rel="stylesheet" type='text/css' href="css/fonts.css">
@@ -12,56 +12,67 @@
   <body>
 
 <!-- HEADING SECTION OF WEBSITE -->
-  <div class="link-nav">
-    <a class="action-link" id="action-link" href="#">Home</a>
-    <span> / </span>
-    <a class="action-link" id="action-link" href="#">Vinyl</a>
-    <span> / </span>
-    <span id="Active-actionLink" href="#">CHANGES</span>
-  </div>
+
 
   <div class="checkouts">
     <div class="checkout-header">
-    <h1>CART SUMMARY</h1>
+    <h1>COMPLETE YOUR PURCHASE</h1>
   </div>
 
   <div class="checkout">
-    <div class="product-preview">
-      <div class="product product-1">
-        <img src="img/vinyl-1.png" alt="Justin Beiber - Changes" class="checkout-image">
-          <div class="cart-info">
-          <h2 class="cart-name-preview">CHANGES</h2>
-          <h3 class="price">$79</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
 
-      <div class="product product-2">
-        <img src="img/vinyl-2.png" alt="Ariana Grande - Sweetener" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">SWEETENER</h2>
-          <h3 class="price">$59</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
+    <div class= "payment-form">
+      <h2 class="payment-title">Payment Form</h2>
+      <div class="form">
 
-      <div class="product product-3">
-        <img src="img/vinyl-6.png" alt="Drake - Take Care" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">TAKE CARE</h2>
-          <h3 class="price">$49</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
+        <form action="/action_page.php">
 
-      <div class="product product-4">
-        <img src="img/vinyl-4.png" alt="Tyler, the Creator - IGOR" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">IGOR</h2>
-          <h3 class="price">$79</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-       </div>
-      </div>
+          <div class="form-row">
+            <label>First Name:</label>
+            <input type="text" name="fname" value="" placeholder="John">
+          </div>
+          <div class="form-row">
+            <label>Last Name:</label>
+            <input type="text" name="lname" value="" placeholder="Appleseed">
+          </div>
+          <div class="form-row">
+            <label>Address</label>
+            <input type="text" name="address" value="" placeholder="321 Sunset Blvd">
+          </div>
+          <div class="form-row">
+            <label>Postal Code</label>
+            <input type="text" name="postal-code" value="" placeholder="19475832">
+          </div>
+          <div class="form-row">
+            <label>City:</label>
+            <input type="text" name="city" value="" placeholder="Los Angeles">
+          </div>
+          <div class="form-row">
+            <label>Province/State:</label>
+            <input type="text" name="state" value="" placeholder="California">
+          </div>
+          <div class="form-row">
+            <label>Country:</label>
+            <input type="text" name="country" value="" placeholder="United States">
+          </div>
+          <div class="form-row">
+            <label>Card Number:</label>
+            <input type="text" name="card-number" value="" placeholder="9999 9998 7777 6666">
+          </div>
+          <div class="form-row">
+            <label>Name on Card:</label>
+            <input type="text" name="noc" value="" placeholder="Patrick Pacunana">
+          </div>
+          <div class="form-row">
+            <label>Expiry Date:</label>
+            <input type="text" name="expiry" value="" placeholder="03/22">
+          </div>
+          <div class="form-row">
+            <label >CVV:</label>
+            <input type="text" name="cvv" value="" placeholder="244">
+          </div>
+
+        </form>
     </div>
 
     <button class="button purchase">Make Purchase</button>
@@ -117,5 +128,7 @@
   </div>
 
   </div>
-  </body>
+</body>
+
+
 </html>
