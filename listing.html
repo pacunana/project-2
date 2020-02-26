@@ -12,26 +12,68 @@
   <body>
     
 <!-- HEADING SECTION OF WEBSITE -->
-    <div>
-      <h1 class="logo">REWIND</h1>
+<div class="header">
+    <div class="banner">
+    <div class="banner-line mirror"></div>
+    <h1 class="logo">REWIND</h1>
+    <div class="banner-line"></div>
     </div>
+  </div>
+  <nav id="navbar" class="nav-bar">
+    <ul class="menu-items">
+      <li><a href="javascript:void(0)">New Releases</a></li>
+      <li><a href="javascript:void(0)">Vinyls</a></li>
+      <li><a href="javascript:void(0)">Cassettes</a></li>
+      <li><a href="javascript:void(0)">Accessories</a></li>
+      <li><a href="javascript:void(0)">About</a></li>
+      <li><a href="javascript:void(0)">Contact</a></li>
+      <li><a href="javascript:void(0)">Cart</a></li>
+      <li><a href="javascript:void(0)">Search</a></li>
+  </ul>
+</nav>
+<div class="toggle menu-items">
+<a href="#" onclick="dropdown()">Menu
+</a>
+<div id="dropdown-content">
+    <ul class="menu-items">
+        <li><a href="javascript:void(0)">New Releases</a></li>
+        <li><a href="javascript:void(0)">Vinyls</a></li>
+        <li><a href="javascript:void(0)">Cassettes</a></li>
+        <li><a href="javascript:void(0)">Accessories</a></li>
+        <li><a href="javascript:void(0)">About</a></li>
+        <li><a href="javascript:void(0)">Contact</a></li>
+        <li><a href="javascript:void(0)">Cart</a></li>
+        <li><a href="javascript:void(0)">Search</a></li>
+    </ul>
+  </div>
+</div>
 
-  <div class= "navigation">
-    <div class ="navbar" id="navdropdown">
-      <div class ="left">
-        <a href="#" class="nav-link active">NEW ARRIVALS</a>
-        <a href="#" class="nav-link">VINYLS</a>
-        <a href="#" class="nav-link">VHS</a>
-        <a href="#" class="nav-link">CASSETTES</a>
-        <a href="#" class="nav-link">ACCESSORIES</a>
-      </div>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var toggle = document.getElementById("toggle-id");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+      toggle.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+      toggle.classList.remove("sticky");
+    }
+  }
 
-      <div class ="right">
-        <a href="#" class="nav-link">SIGN IN</a>
-        <a href="#" class="nav-link">CART</a>
-      </div>
-      </div>
-    </div>
+  function dropdown() {
+var x = document.getElementById("dropdown-content");
+if (x.style.display === "none") {
+x.style.display = "flex";
+} else {
+x.style.display = "none";
+}
+}
+  </script>
 
   <div class ="content">
     <div class="right-content">
