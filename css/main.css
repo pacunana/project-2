@@ -1,5 +1,10 @@
 /* GENERAL LAYOUT */
 
+
+body{
+  padding:0;
+  margin:0;
+}
 .info-box{
   padding-bottom: 4rem;
   padding-top:3rem;
@@ -125,10 +130,10 @@ input[type=radio]{
 
 /* PRODUCT PAGE */
 
-.banner{
+/* .banner{
   border-bottom: #4777E2 solid 2px;
   padding-top: 2rem;
-}
+} */
 
 .filter-section{
   padding-top:9.5rem;
@@ -331,4 +336,90 @@ input[type=radio]{
 
 .product-photo{
   border-bottom:1px #E0E0E0 solid;
+}
+
+/* NAVIGATION BAR STYLING */
+
+nav{
+  background-color: #151515;
+
+}
+.banner-line{
+  width: 20%;
+  height: auto;
+  background: linear-gradient(270deg, #B33A37 0%, rgba(179, 58, 55, 0) 100%);
+  flex:2;}
+
+.mirror{
+  transform: rotate(-180deg);
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:0;
+  padding: 3rem 0 0 0;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type:  none;
+  padding:0;
+  
+}
+.header{
+  background-color: #151515;
+}
+.menu-items{
+  padding: 1.5rem 0;
+  background-color: #151515;
+}
+.menu-items a {
+margin:0 2vw;
+white-space: nowrap;
+border-bottom:solid #151515 3px;
+
+}
+
+
+#navbar{
+  background-color: #151515;
+  
+
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+.toggle {
+  display: none;
+}
+
+#dropdown-content{
+  background: #4777E2;
+  display:flex;
 }
