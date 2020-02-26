@@ -31,10 +31,21 @@
           <li><a href="javascript:void(0)">Search</a></li>
       </ul>
     </nav>
-    <div id="toggle-id" class="toggle menu-items">
-    </li><a href="javascript:void(0);">
-      Menu</li>
+    <div class="toggle menu-items">
+    <a href="#" onclick="dropdown()">Menu
     </a>
+    <div id="dropdown-content">
+        <ul class="menu-items">
+            <li><a href="javascript:void(0)">New Releases</a></li>
+            <li><a href="javascript:void(0)">Vinyls</a></li>
+            <li><a href="javascript:void(0)">Cassettes</a></li>
+            <li><a href="javascript:void(0)">Accessories</a></li>
+            <li><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Contact</a></li>
+            <li><a href="javascript:void(0)">Cart</a></li>
+            <li><a href="javascript:void(0)">Search</a></li>
+        </ul>
+      </div>
     </div>
 
     <div class="content">
@@ -73,14 +84,14 @@
         }
       }
 
-      function classToggle() {
-  const navs = document.querySelectorAll(".nav-bar")
-  
-  navs.forEach(nav => nav.classList.toggle("toggle-show"));
+      function dropdown() {
+  var x = document.getElementById("dropdown-content");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
 }
-
-document.querySelector('.Navbar__Link-toggle')
-  .addEventListener('click', classToggle);
       </script>
 </body>
 
