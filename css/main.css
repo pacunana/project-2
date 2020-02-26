@@ -202,10 +202,66 @@ input[type=radio]{
   border:none;
 }
 
+/*  ABOUT US PAGE */
+.about {
+  max-width: 800px;
+  margin: 8rem auto;
+}
+
+/* .about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+} */
+
+.about-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.about-container a:hover, .container1 a:focus {
+  color: #0F4C81;
+  transition: 0.5s ease;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+/*  CONTACT US PAGE */
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+.options-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.options-container img {
+  max-width: 50%;
+}
+
+.related-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.related-container a:hover, .container1 a:focus {
+  color: #0F4C81;
+  transition: 0.5s ease;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
 /*  SELECTED PRODUCT */
-
 .link-nav {
-
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .selected {
@@ -261,7 +317,9 @@ details {
 .related-card {
   max-width: 200px;
   padding-right: 2rem;
+  padding-bottom: 2rem;
   width: auto;
+  text-align: center;
 }
 
 /* REVIEWS SECTION IN SELECTED PRODUCT*/
