@@ -17,8 +17,8 @@
 
 
 .active{
-  background-color: #507BC5;
-}
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color:white;}
 
 a.sample-link-button:hover{
   background:#4777E2;
@@ -104,6 +104,7 @@ a img:focus{
 
 .filter-option:hover,.filter-option:active {
   text-decoration: underline;
+    color:#151515;
 }
 
 textarea:hover{

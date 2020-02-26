@@ -227,7 +227,7 @@ textarea{
     flex: 1 95%;
   }
   .product-title-1, .product-title-2{
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -240,7 +240,7 @@ textarea{
   }
 
   .product-title-1, .product-title-2{
-    text-align: center;
+    text-align: left;
   }
 
   .left-content{
