@@ -15,10 +15,17 @@
   color:#E1E1E1;
 }
 
+.active-nav, .menu-items a:hover{
+    border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
+  }
 
 .active{
   background-image: linear-gradient(to right, #507BC5 , #B33A37);
   color:white;}
+
+  .active{
+    background-image: linear-gradient(to right, #507BC5 , #B33A37);
+    color:white;}
 
 a.sample-link-button:hover{
   background:#4777E2;
