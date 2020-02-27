@@ -282,17 +282,8 @@ textarea{
 }
 
 @media only screen and (max-width: 900px) {
-  .nav-bar{
+  .nav-bar, .menu-items{
     flex-direction: column;
   }
-  .menu-items {
-    display:none;
-  }
-  .toggle {
-    display: flex;
-    justify-content: center;
-  }
-  .toggle-show{
-    display: flex;
-  }
+
 }
