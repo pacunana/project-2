@@ -84,97 +84,63 @@ x.style.display = "none";
 
   <div class="checkouts">
     <div class="checkout-header">
-    <h1>CART SUMMARY</h1>
-  </div>
-
-  <div class="checkout">
-    <div class="product-preview">
-      <div class="product product-1">
-        <img src="img/vinyl-1.png" alt="Justin Bieber - Changes" class="checkout-image">
-          <div class="cart-info">
-          <h2 class="cart-name-preview">CHANGES</h2>
-          <h3 class="price">$79</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
-
-      <div class="product product-2">
-        <img src="img/vinyl-2.png" alt="Ariana Grande - Sweetener" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">SWEETENER</h2>
-          <h3 class="price">$59</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
-
-      <div class="product product-3">
-        <img src="img/vinyl-6.png" alt="Drake - Take Care" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">TAKE CARE</h2>
-          <h3 class="price">$49</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-        </div>
-      </div>
-
-      <div class="product product-4">
-        <img src="img/vinyl-4.png" alt="Tyler, the Creator - IGOR" class="checkout-image">
-        <div class="cart-info">
-          <h2 class="cart-name-preview">IGOR</h2>
-          <h3 class="price">$79</h3>
-          <h4 class="quantity">Quantity: 1</h4>
-       </div>
-      </div>
+      <h1>CART SUMMARY</h1>
     </div>
 
-    <button class="button purchase">Make Purchase</button>
+  <div class="checkout">
 
+    <div class= "payment-form">
+      <h2 class="payment-title">Items</h2>
+      <div class="product-preview">
+        <div class="product product-1">
+          <img src="img/vinyl-1.png" alt="Justin Bieber - Changes" class="checkout-image">
+            <div class="cart-info">
+            <h2 class="cart-name-preview">CHANGES</h2>
+            <h3 class="price">$79</h3>
+            <h4 class="quantity">Quantity: 1</h4>
+          </div>
+        </div>
+        <div class="product product-2">
+          <img src="img/vinyl-2.png" alt="Ariana Grande - Sweetener" class="checkout-image">
+          <div class="cart-info">
+            <h2 class="cart-name-preview">SWEETENER</h2>
+            <h3 class="price">$59</h3>
+            <h4 class="quantity">Quantity: 1</h4>
+          </div>
+        </div>
+  
+        <div class="product product-3">
+          <img src="img/vinyl-6.png" alt="Drake - Take Care" class="checkout-image">
+          <div class="cart-info">
+            <h2 class="cart-name-preview">TAKE CARE</h2>
+            <h3 class="price">$49</h3>
+            <h4 class="quantity">Quantity: 1</h4>
+          </div>
+        </div>
+  
+        <div class="product product-4">
+          <img src="img/vinyl-4.png" alt="Tyler, the Creator - IGOR" class="checkout-image">
+          <div class="cart-info">
+            <h2 class="cart-name-preview">IGOR</h2>
+            <h3 class="price">$79</h3>
+            <h4 class="quantity">Quantity: 1</h4>
+         </div>
+        </div>
+        </div>
   </div>
 
 
   <div class="cart-guide">
-        <h2>Order Summary</h2>
-        <div class="product-preview">
-        <div class="product product-1">
-        <img src="img/vinyl-1.png" alt="Justin Bieber - Changes" class="checkout-image">
-          <div class="cart-info">
-        <h2 class="cart-name-preview">CHANGES</h2>
-        <h3 class="price">$79</h3>
-        <h4 class="quantity">Quantity: 1</h4>
-      </div>
-      </div>
-      <div class="product product-2">
-          <img src="img/vinyl-2.png" alt="Ariana Grande - Sweetener" class="checkout-image">
-           <div class="cart-info">
-         <h2 class="cart-name-preview">SWEETENER</h2>
-         <h3 class="price">$59</h3>
-         <h4 class="quantity">Quantity: 1</h4>
-       </div>
-       </div>
-       <div class="product product-3">
-          <img src="img/vinyl-6.png" alt="Drake - Take Care" class="checkout-image">
-           <div class="cart-info">
-         <h2 class="cart-name-preview">TAKE CARE</h2>
-         <h3 class="price">$49</h3>
-         <h4 class="quantity">Quantity: 1</h4>
-
-       </div>
-       </div>
-       <div class="product product-4">
-          <img src="img/vinyl-4.png" alt="Tyler, the Creator - IGOR" class="checkout-image">
-           <div class="cart-info">
-         <h2 class="cart-name-preview">IGOR</h2>
-         <h3 class="price">$79</h3>
-         <h4 class="quantity">Quantity: 1</h4>
-       </div>
-       </div>
-      </div>
+        <h2>Sub-total</h2>
     <div class="shipping">
       <h4 class=shipping-text>Sub-total<span class="right-text">$74</span></h4>
       <h4 class=shipping-text>Shipping + Handling<span class="right-text">$30</span></h4>
       <h4 class=shipping-text>Tax<span class="right-text">$13</span></h4>
     </div>
     <h2 class="total-price">Total Price:<span class="right-text">$117</span></h2>
-
+    <form action="checkout.html" method="get" target="_blank">
+      <button type="submit" class="button purchase">Make Purchase</button>
+   </form>
   </div>
   </div>
 

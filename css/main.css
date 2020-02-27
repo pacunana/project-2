@@ -38,10 +38,9 @@ ul, ol{
   background-color: #E1E1E1;
   padding: 1rem 2em;
   cursor: pointer;
-  width:8rem;
-  margin-right:1rem;
   border: none;
   border-radius: 2px;
+  text-align: center;
 }
 
 a.sample-link-button{
@@ -366,7 +365,7 @@ details {
   margin-top: 2rem;
 }
 
-.payment-form{
+.payment-form, .cart-preview{
   padding-left:1rem;
   padding-right: 3em;
 
@@ -383,7 +382,7 @@ details {
   margin-bottom:3rem;
   margin-left:1rem;
   margin-right:1rem;
-  border-bottom: #4777E2 2px solid;
+  border-bottom: #B33A37 2px solid;
 }
 
 .cart-name-preview{
@@ -409,8 +408,11 @@ details {
   padding:1rem 1rem;
 }
 .purchase{
-  width:100%;
+  width:auto;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .checkout-image{
