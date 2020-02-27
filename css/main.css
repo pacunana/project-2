@@ -524,8 +524,8 @@ nav{
   justify-content: center;
   list-style-type:  none;
   padding:0;
-
 }
+
 .header{
   background-color: #151515;
 }
@@ -578,4 +578,30 @@ border-bottom:solid #151515 3px;
 #dropdown-content{
   background: #4777E2;
   display:flex;
+}
+
+
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.toggle{
+  display:none;
 }

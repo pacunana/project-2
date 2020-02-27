@@ -20,34 +20,17 @@
         </div>
       </div>
       <nav id="navbar" class="nav-bar">
-        <ul class="menu-items">
-          <li><a href="javascript:void(0)">New Releases</a></li>
-          <li><a href="javascript:void(0)">Vinyls</a></li>
-          <li><a href="javascript:void(0)">Cassettes</a></li>
-          <li><a href="javascript:void(0)">Accessories</a></li>
-          <li><a href="javascript:void(0)">About</a></li>
-          <li><a href="javascript:void(0)">Contact</a></li>
-          <li><a href="javascript:void(0)">Cart</a></li>
-          <li><a href="javascript:void(0)">Search</a></li>
-      </ul>
+        <div class="menu-items">
+          <a href="javascript:void(0)">New Releases</a>
+          <a href="javascript:void(0)">Vinyls</a>
+          <a href="javascript:void(0)">Cassettes</a>
+          <a href="javascript:void(0)">Accessories</a>
+          <a href="javascript:void(0)">About</a>
+          <a href="javascript:void(0)">Contact</a>
+          <a href="javascript:void(0)">Cart</a>
+          <a href="javascript:void(0)">Search</a>
+        </div>
     </nav>
-    <div class="toggle menu-items">
-    <a href="#" onclick="dropdown()">Menu
-    </a>
-    <div id="dropdown-content">
-        <ul class="menu-items">
-            <li><a href="javascript:void(0)">New Releases</a></li>
-            <li><a href="javascript:void(0)">Vinyls</a></li>
-            <li><a href="javascript:void(0)">Cassettes</a></li>
-            <li><a href="javascript:void(0)">Accessories</a></li>
-            <li><a href="javascript:void(0)">About</a></li>
-            <li><a href="javascript:void(0)">Contact</a></li>
-            <li><a href="javascript:void(0)">Cart</a></li>
-            <li><a href="javascript:void(0)">Search</a></li>
-        </ul>
-      </div>
-    </div>
-
     <div class="content">
       <h3>Sticky Navigation Example</h3>
       <p>The navbar will stick to the top when you reach its scroll position.</p>
@@ -63,34 +46,35 @@
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-
-
     </div>
     
     <script>
       window.onscroll = function() {myFunction()};
       
       var navbar = document.getElementById("navbar");
-      var toggle = document.getElementById("toggle-id");
       var sticky = navbar.offsetTop;
       
       function myFunction() {
         if (window.pageYOffset >= sticky) {
           navbar.classList.add("sticky")
-          toggle.classList.add("sticky")
         } else {
           navbar.classList.remove("sticky");
-          toggle.classList.remove("sticky");
         }
       }
 
-      function dropdown() {
-  var x = document.getElementById("dropdown-content");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-  } else {
-    x.style.display = "none";
-  }
+      var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
 }
       </script>
 </body>
