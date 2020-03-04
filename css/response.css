@@ -280,14 +280,6 @@ textarea{
       max-width:300px;
   }
 }
-/* @media screen and (max-width: 900px) {
-  .menu-items a{display: none;}
-  .menu-items a.dropdown {
-    float: right;
-    display: block;
-
-  }
-} */
 
 
 @media  screen and (max-width: 900px) {
@@ -308,25 +300,12 @@ textarea{
     width: auto;
     display: block;
     text-align: center;
-
-  }
-  /* nav ul{
-    max-height:0px;
   }
 
-  nav.black ul{
-    background: #151515;
-  }
-  nav ul li{
-    box-sizing: border-box;
-    width:100%;
-    text-align:center;
-  }
-
-  .menu-items{
-    max-height:200em;
-  }
-  .menu-icon{
-    display:block;
-  } */
+.link-nav{
+  display: none;
+} 
+.content{
+  padding-top:15rem;
+} 
 }

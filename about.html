@@ -20,42 +20,27 @@
   </head>
 
   <body>
-      <div class="header">
-          <div class="banner">
-          <div class="banner-line mirror"></div>
-          <h1 class="logo">REWIND</h1>
-          <div class="banner-line"></div>
+    <header>
+      <nav>  
+          <div class="logo">
+                <div class="banner-line mirror"></div>
+                  <h1 class="logo">REWIND</h1>
+                <div class="banner-line"></div>  
           </div>
-        </div>
-        <nav id="navbar" class="nav-bar">
-          <ul class="menu-items">
-            <li><a href="listing.html">New Releases</a></li>
-            <li><a href="vinyl.html">Vinyls</a></li>
-            <li><a href="cassettes.html">Cassettes</a></li>
-            <li><a href="accessories.html">Accessories</a></li>
-            <li><a href="about.html" class="active-nav">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="javascript:void(0)">Search</a></li>
-        </ul>
+          <div class="menu-items" id="navbar">
+            <a href="javascript:void(0);" class="dropdown" onclick="toggle()">Menu</i></a>
+                  <a href="listing.html">New Releases</a>
+                  <a href="vinyl.html">Vinyls</a>
+                  <a href="cassettes.html">Cassettes</a>
+                  <a href="accessories.html">Accessories</a>
+                  <a href="about.html" class="active-nav">About</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="cart.html"><div class="cart-icon"><i class="fa fa-shopping-cart"></div></i></a>
+                  <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+          </div>
       </nav>
-      <div class="toggle menu-items">
-      <a href="#" onclick="dropdown()">Menu
-      </a>
-      <div id="dropdown-content">
-      <ul class="menu-items">
-              <li><a href="listing">New Releases</a></li>
-              <li><a href="vinyl.html">Vinyls</a></li>
-              <li><a href="cassettes.html">Cassettes</a></li>
-              <li><a href="accessories.html">Accessories</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="cart.html">Cart</a></li>
-              <li><a href="javascript:void(0)">Search</a></li>
-          </ul>
-        </div>
-      </div>
-
+    </header>
+<div class="content">
     <div class="link-nav">
       <a class="action-link" id="action-link" href="index.html">Home</a>
       <span> / </span>
@@ -64,7 +49,6 @@
 
     <div class="about">
       <div class="about-container">
-        <div class="content">
           <h1>ABOUT US</h1>
           <p>Our mission is to offer modern day music that is presented in a
             manner that resembles the market in the mid to late 30th century.
@@ -77,8 +61,8 @@
             We were established in Vancouver, BC as a small digital shop.
             Founded by Newton Nguyen-Le and Patrick Pacunana.</p>
           </div>
-      </div>
     </div>
-
-  </body>
+</div> 
+<script src="js/navbar.js"></script>
+</body>
 </html>

@@ -7,34 +7,46 @@
     <link rel="stylesheet" type='text/css' href="css/interactions.css">
     <link rel="stylesheet" type='text/css' href="css/fonts.css">
     <link rel="stylesheet" type='text/css' href="css/response.css">
+    <link rel="stylesheet" type='text/css' href="css/interactions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body>
 
 <!-- HEADING SECTION OF WEBSITE -->
-<div class="header">
-    <div class="banner">
-    <div class="banner-line mirror"></div>
-    <h1 class="logo">REWIND</h1>
-    <div class="banner-line"></div>
-    </div>
-  </div>
-  <nav id="navbar" class="nav-bar">
-    <div class="menu-items">
-      <a href="listing.html">New Releases</a>
-      <a href="vinyl.html">Vinyls</a>
-      <a href="cassettes.html">Cassettes</a>
-      <a href="accessories.html">Accessories</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="cart.html">Cart</a>
-      <a href="javascript:void(0)">Search</a>
-    </div>
-</nav>
+  <header>
+    <nav>  
+        <div class="logo">
+              <div class="banner-line mirror"></div>
+                <h1 class="logo">REWIND</h1>
+              <div class="banner-line"></div>  
+        </div>
+        <div class="menu-items" id="navbar">
+          <a href="javascript:void(0);" class="dropdown" onclick="toggle()">Menu</i></a>
+                <a href="listing.html" class="active-nav">New Releases</a>
+                <a href="vinyl.html">Vinyls</a>
+                <a href="cassettes.html">Cassettes</a>
+                <a href="accessories.html">Accessories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html"><div class="cart-icon"><i class="fa fa-shopping-cart"></div></i></a>
+                <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+        </div>
+    </nav>
 
-
+    <div class="top-content">
+      <div class="link-nav">
+        <a class="action-link" href="#index.html">Home</a>
+        <span> / </span>
+        <span>New Releases</span>
+      </div>
+    </div>
+  </header>
 
   <div class ="content">
+
+ 
     <div class="right-content">
     <!-- TITLE INTRODUCTION TO PAGE -->
       <div class="banner">
@@ -88,13 +100,7 @@
           </div>
     </div>
     </div>
-
     <div class = "left-content">
-        <div class="link-nav">
-            <a class="action-link" href="#index.html">Home</a>
-            <span> / </span>
-            <span>New Releases</span>
-          </div>
     <!-- FILTERING SECTION -->
     <div class="filter-section">
       <button class ="button filter-category active">GENRE</button>

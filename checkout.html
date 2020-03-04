@@ -13,68 +13,28 @@
 
 <!-- HEADING SECTION OF WEBSITE -->
 
-<div class="header">
-    <div class="banner">
-    <div class="banner-line mirror"></div>
-    <h1 class="logo">REWIND</h1>
-    <div class="banner-line"></div>
-    </div>
-  </div>
-  <nav id="navbar" class="nav-bar">
-    <ul class="menu-items">
-      <li><a href="listing.html">New Releases</a></li>
-      <li><a href="vinyl.html">Vinyls</a></li>
-      <li><a href="cassettes.html">Cassettes</a></li>
-      <li><a href="accessories.html">Accessories</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="cart.html" class="active-nav">Cart</a></li>
-      <li><a href="javascript:void(0)">Search</a></li>
-  </ul>
-</nav>
-<div class="toggle menu-items">
-<a href="#" onclick="dropdown()">Menu
-</a>
-<div id="dropdown-content">
-<ul class="menu-items">
-        <li><a href="listing">New Releases</a></li>
-        <li><a href="vinyl.html">Vinyls</a></li>
-        <li><a href="cassettes.html">Cassettes</a></li>
-        <li><a href="accessories.html">Accessories</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="cart.html">Cart</a></li>
-        <li><a href="javascript:void(0)">Search</a></li>
-    </ul>
-  </div>
-</div>
-<script>
-  window.onscroll = function() {myFunction()};
+<header>
+  <nav>  
+      <div class="logo">
+            <div class="banner-line mirror"></div>
+              <h1 class="logo">REWIND</h1>
+            <div class="banner-line"></div>  
+      </div>
+      <div class="menu-items" id="navbar">
+        <a href="javascript:void(0);" class="dropdown" onclick="toggle()">Menu</i></a>
+              <a href="listing.html">New Releases</a>
+              <a href="vinyl.html">Vinyls</a>
+              <a href="cassettes.html">Cassettes</a>
+              <a href="accessories.html">Accessories</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+              <a href="cart.html" class="active-nav"><div class="cart-icon"><i class="fa fa-shopping-cart"></div></i></a>
+              <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+      </div>
+  </nav>
+</header>
 
-  var navbar = document.getElementById("navbar");
-  var toggle = document.getElementById("toggle-id");
-  var sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-      toggle.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-      toggle.classList.remove("sticky");
-    }
-  }
-
-  function dropdown() {
-var x = document.getElementById("dropdown-content");
-if (x.style.display === "none") {
-x.style.display = "flex";
-} else {
-x.style.display = "none";
-}
-}
-  </script>
-
+<div class="content">
   <div class="link-nav">
     <a class="action-link" href="index.html">Home</a>
     <span> / </span>
@@ -197,6 +157,9 @@ x.style.display = "none";
   </div>
 
   </div>
+</div>
+<script src="js/navbar.js"></script>
+
 </body>
 
 
