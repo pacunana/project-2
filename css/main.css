@@ -412,8 +412,8 @@ details {
 }
 
 .checkout-image{
-  width:30%;
-  height:30%;
+  width:50%;
+  height:50%;
 }
 
 .cart-guide{
@@ -425,6 +425,10 @@ details {
 
 .cart-info{
   padding-left:1rem;
+}
+
+.cart-guide-info{
+  margin-bottom:2rem;
 }
 /* OTHER */
 .art-direction{
@@ -634,7 +638,7 @@ padding-top:5rem;
 
 /* SECTION NAVIGATION STYLING */
 .link-nav{
-  padding: 12rem 0 2rem 0;
+  padding: 13rem 0 2rem 0;
   margin-left: 2rem;
 
 }

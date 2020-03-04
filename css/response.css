@@ -282,21 +282,19 @@ textarea{
 }
 
 
+
 @media  screen and (max-width: 900px) {
 
   .menu-items a{display: none;}
   .menu-items a.dropdown {
-    float: right;
     display: block;
 
   }
-  .menu-items.responsive {position: relative;
+  .menu-items.responsive {
     display: flex;
     flex-direction: column;
-    
   }
   .menu-items.responsive a {
-    float: none;
     width: auto;
     display: block;
     text-align: center;
@@ -306,6 +304,6 @@ textarea{
   display: none;
 } 
 .content{
-  padding-top:15rem;
+  padding-top:3rem;
 } 
 }
