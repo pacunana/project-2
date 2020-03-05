@@ -229,6 +229,21 @@ textarea{
     text-align: left;
   }
 }
+
+@media (max-width: 480px){
+  .selected {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product {
+    max-width: 100%;
+  }
+  h3 {
+    padding-bottom: 1rem;
+  }
+}
+
 @media (max-width: 600px){
   .updates{
     display: flex;
@@ -244,7 +259,7 @@ textarea{
   .left-content{
     display:none;
      }
- .product-card {
+  .product-card {
     flex: 2 40%;
   }
 
