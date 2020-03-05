@@ -305,4 +305,12 @@ flex:0.75;
   padding-top:12rem;
 } 
 
+.extra-padding{
+  padding-top:10rem;
+
+}
+
+.product-photo{
+  max-width: 100%;
+}
 }

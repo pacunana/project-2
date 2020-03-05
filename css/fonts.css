@@ -167,3 +167,10 @@ a.sample-link-button{
   color:#E1E1E1;
   font-size:3rem;
 }
+
+/* LANDING PAGE */
+.landing-heading{
+text-align: center;
+padding:1rem 0 2rem 0;
+font-size: 3rem;
+}
