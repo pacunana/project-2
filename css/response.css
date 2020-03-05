@@ -231,9 +231,9 @@ textarea{
 }
 
 @media (max-width: 668px) {
- .filter-section {
-    padding-top:1rem;
- }
+  .left-content{
+    display:none;
+     }
  .product-card {
     flex: 1 95%;
   }
@@ -241,11 +241,6 @@ textarea{
   .product-title-1, .product-title-2{
     text-align: left;
   }
-
-  .left-content{
-    width:auto;
-  }
-
   .cart-guide{
     -webkit-order: 1;
     -ms-order: 1;
@@ -277,8 +272,11 @@ textarea{
 
 @media (min-width: 668px) {
   .left-content{
-      max-width:300px;
-  }
+flex:0.75;
+ }
+.right-content{
+  flex:3;
+}
 }
 
 

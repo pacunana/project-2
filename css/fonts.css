@@ -122,6 +122,11 @@ text-decoration: none;
   text-align: center;
 }
 
+.button {
+  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
 .filter-category{
   text-align: left;
 }

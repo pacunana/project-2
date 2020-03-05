@@ -41,6 +41,7 @@ ul, ol{
   border: none;
   border-radius: 2px;
   text-align: center;
+  font-family:
 }
 
 a.sample-link-button{
@@ -146,7 +147,7 @@ input[type=radio]{
 } */
 
 .filter-section{
-  padding-top:9.5rem;
+  padding-top:0rem;
   display:flex;
   flex-direction: column;
 }
