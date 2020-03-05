@@ -223,7 +223,7 @@ textarea{
 
 @media (max-width: 1000px) {
   .product-card {
-    flex: 1 95%;
+    flex: 2 45%;
   }
   .product-title-1, .product-title-2{
     text-align: left;
@@ -235,7 +235,7 @@ textarea{
     display:none;
      }
  .product-card {
-    flex: 1 95%;
+    flex: 2 40%;
   }
 
   .product-title-1, .product-title-2{
