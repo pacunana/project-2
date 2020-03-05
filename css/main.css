@@ -1,6 +1,4 @@
 /* GENERAL LAYOUT */
-
-
 body{
   padding:0;
   margin:0;
@@ -32,6 +30,13 @@ ul, ol{
   color:#4777E2;
   padding-top:1rem;
 }
+
+/* LANDING PAGE */
+
+.event-head, .soon-head {
+  padding-bottom: 1rem;
+}
+
 
 /* BUTTONS */
 .button{
@@ -189,10 +194,6 @@ input[type=radio]{
 .listing-section{
   margin-top:2rem;
   flex-direction: row;
-}
-
-.product-photo{
-  margin-bottom:1rem;
 }
 
 .tester{
@@ -492,6 +493,7 @@ details {
 
 .product-photo{
   border-bottom:1px #E0E0E0 solid;
+  margin-bottom:1rem;
 }
 
 /* NAVIGATION BAR STYLING */
@@ -645,4 +647,15 @@ padding-top:5rem;
 
 .extra-padding{
   padding-top:10rem;
+}
+
+.updates{
+  display:flex;
+  flex:row;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.updates div{
+  padding: 1rem;
 }

@@ -229,6 +229,16 @@ textarea{
     text-align: left;
   }
 }
+@media (max-width: 600px){
+  .updates{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .events {
+    margin-bottom: 1rem;
+  }
+}
 
 @media (max-width: 668px) {
   .left-content{
@@ -267,7 +277,7 @@ textarea{
   .payment-form, .cart-preview{
       flex:1.4;
   }
- 
+
 }
 
 @media (min-width: 668px) {
@@ -300,10 +310,10 @@ flex:0.75;
 
 .link-nav{
   display: none;
-} 
+}
 .content{
   padding-top:12rem;
-} 
+}
 
 .extra-padding{
   padding-top:10rem;
