@@ -262,7 +262,7 @@ input[type=radio]{
 .selected {
   display: flex;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0rem auto;
 }
 
 .product {
@@ -315,6 +315,11 @@ details {
   padding-bottom: 2rem;
   width: auto;
   text-align: center;
+}
+
+.column-section {
+  display: column;
+  margin: 0rem 2rem 0rem 2rem;
 }
 
 /* REVIEWS SECTION IN SELECTED PRODUCT*/
