@@ -101,6 +101,7 @@ a img:hover{
   opacity:40%;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  overflow: hidden;
 }
 
 a img:focus{
