@@ -663,3 +663,19 @@ padding-top:5rem;
 .updates div{
   padding: 1rem;
 }
+
+
+
+.home-banner .banner-button {
+  margin-left:7%;
+  width:30%;
+  transform: translate(0%, -280%);
+  /* -ms-transform: translate(-50%, -50%); */
+  background-color: #E1E1E1;
+  color:#151515;
+
+  border: none;
+  cursor: pointer;
+
+  text-align: center;
+}
