@@ -262,7 +262,7 @@ input[type=radio]{
 .selected {
   display: flex;
   max-width: 1000px;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem auto;
 }
 
 .product {

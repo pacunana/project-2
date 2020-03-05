@@ -234,11 +234,17 @@ textarea{
   .selected {
     display: flex;
     flex-direction: column;
+    margin: 0rem 1rem;
   }
 
   .product {
     max-width: 100%;
   }
+
+  h1 {
+    margin: 0rem 0.5rem;
+  }
+
   h3 {
     padding-bottom: 1rem;
   }
