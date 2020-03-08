@@ -1,33 +1,35 @@
 /* GENERAL */
 
 /* ANCHOR TAGS */
-*{
+* {
   scroll-behavior: smooth;
 }
 
-.menu-items a:hover{
+.menu-items a:hover {
   border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
   -webkit-transition-duration: 1s; /* Safari */
   transition-duration: 1s;
 }
 
-.menu-items a, .menu-items a:active, .menu-items a:active{
+.menu-items a, .menu-items a:active, .menu-items a:active {
   color:#E1E1E1;
 }
 
-.active-nav, .menu-items a:hover{
+.active-nav, .menu-items a:hover {
     border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
   }
 
-.active{
+.active {
   background-image: linear-gradient(to right, #507BC5 , #B33A37);
-  color:white;}
+  color:white;
+}
 
-  .active{
-    background-image: linear-gradient(to right, #507BC5 , #B33A37);
-    color:white;}
+.active {
+  background-image: linear-gradient(to right, #507BC5 , #B33A37);
+  color:white;
+}
 
-a.sample-link-button:hover{
+a.sample-link-button:hover {
   background:#4777E2;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -41,7 +43,7 @@ a.sample-link-button:hover{
   transition-duration: 0.4s;
 }
 
-.button:active{
+.button:active {
   background-image: linear-gradient(to right, #507BC5 , #B33A37);
   color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -57,54 +59,54 @@ a.sample-link-button:hover{
   transition-duration: 0.4s;
 }
 
-.button-product:active{
+.button-product:active {
   background-image: linear-gradient(to right, #507BC5 , #B33A37);
   color: white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-input[type=text]:hover{
+input[type=text]:hover {
 
   border: .5px #212121 solid;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-input[type=text]:active{
+input[type=text]:active {
   background-color:#E0E0E0;
 }
 
-input[type=text]:focus{
-  background-color:#E0E0E0;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-
-input[type=number]:hover{
+input[type=text]:focus {
   background-color:#E0E0E0;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-input[type=number]:active{
-  background-color:#E0E0E0;
-}
-
-input[type=number]:focus{
+input[type=number]:hover {
   background-color:#E0E0E0;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-a img:hover{
+input[type=number]:active {
+  background-color:#E0E0E0;
+}
+
+input[type=number]:focus {
+  background-color:#E0E0E0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a img:hover {
   opacity:40%;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   overflow: hidden;
 }
 
-a img:focus{
+a img:focus {
   background: #4777E2;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -112,10 +114,10 @@ a img:focus{
 
 .filter-option:hover,.filter-option:active {
   text-decoration: underline;
-    color:#151515;
+  color:#151515;
 }
 
-textarea:hover{
+textarea:hover {
   border: .5px #212121 solid;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;

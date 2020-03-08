@@ -3,30 +3,31 @@ body{
   padding:0;
   margin:0;
 }
-.info-box{
+
+.info-box {
   padding-bottom: 4rem;
   padding-top:3rem;
   padding-left:2rem;
-  }
+}
 
-.indent{
+.indent {
   padding-bottom: 4rem;
   padding-left:2rem;
   display:flex;
   flex-direction: column;
 }
 
-.citation-link{
+.citation-link {
   padding:0.5rem 0;
 }
 
-ul, ol{
+ul, ol {
   margin-top:0;
   margin-bottom:0;
   padding-bottom:0;
 }
 
-.heading{
+.heading {
   color:#4777E2;
   padding-top:1rem;
 }
@@ -38,7 +39,7 @@ ul, ol{
 }
 
 /* BUTTONS */
-.button{
+.button {
   background-color: #E1E1E1;
   padding: 1rem 2em;
   cursor: pointer;
@@ -48,7 +49,7 @@ ul, ol{
   font-family:
 }
 
-a.sample-link-button{
+a.sample-link-button {
   background:#E0E0E0;
   padding: 1.5em 1.5rem;
   border-radius: 4px;
@@ -66,7 +67,7 @@ a.sample-link-button{
 }
 
 /* SUBMIT AND RESET */
-.srbutton{
+.srbutton {
   display: flex inline;
   align-items: flex-start;
   flex-direction: row;
@@ -75,40 +76,41 @@ a.sample-link-button{
 
 /* NAVIGATION BAR */
 
-.navbar{
+.navbar {
   overflow: hidden;
   background-color: #E1E1E1;
 }
 
-.navbar div{
+.navbar div {
   display:none;
 }
 
-.navbar .toggle{
+.navbar .toggle {
   display: inline-block;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
   float: left;
   display: block;
   padding: 1.5em 1.5rem;
 }
 
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
   background-color: #507BC5;
   color: #E1E1E1;
 }
 
-.side-navbar .nav-link:hover{
+.side-navbar .nav-link:hover {
   background-color: #E1E1E1;
   color: #151515;
 }
-.navbar .nav-link:active{
+
+.navbar .nav-link:active {
   background-color: #507BC5;
   color: white;
 }
 
-.navbar .toggle{
+.navbar .toggle {
   padding: 1em;
   color:black;
   vertical-align:middle;
@@ -117,7 +119,7 @@ a.sample-link-button{
 /* TEXT INPUT */
 
 /* help from https://www.bitdegree.org/learn/css-form */
-input[type=text]{
+input[type=text] {
   background-color: white;
   border: 0.5px #E0E0E0 solid;
   border-radius: 4px;
@@ -128,7 +130,7 @@ input[type=text]{
 
 /* NUMBER INPUT */
 /* help from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_number */
-input[type=number]{
+input[type=number] {
   background-color: white;
   text-align: center;
   border: 0.5px #212121 solid;
@@ -138,7 +140,7 @@ input[type=number]{
 
 
 /* RADIO BUTTON */
-input[type=radio]{
+input[type=radio] {
   margin-right:1rem;
 }
 
@@ -149,13 +151,13 @@ input[type=radio]{
   padding-top: 2rem;
 } */
 
-.filter-section{
+.filter-section {
   padding-top:0rem;
   display:flex;
   flex-direction: column;
 }
 
-.filter-category{
+.filter-category {
   background-color: white;
   width:auto;
   margin:0;
@@ -165,37 +167,36 @@ input[type=radio]{
   padding-bottom:0.5rem;
 }
 
-.filter-category.active:after{
+.filter-category.active:after {
   content: ' \002D';
   font-weight: bold;
   float: right;
 }
 
-.filter-category:after{
+.filter-category:after {
   content: ' \002B';
   font-weight: bold;
   float: right;
 }
 
-.filter-list{
+.filter-list {
   padding-left:2rem;
   display:flex;
   flex-direction: column;
   margin: 0.3rem 0;
 }
 
-.filter-option{
+.filter-option {
   text-decoration: none;
   margin: 0.1rem 0;
-
 }
 
-.listing-section{
+.listing-section {
   margin-top:2rem;
   flex-direction: row;
 }
 
-.tester{
+.tester {
   width:50%;
   height:50%;
   border:none;
@@ -233,7 +234,7 @@ input[type=radio]{
   margin-top: 6rem;
 }
 
-.options-container{
+.options-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -347,7 +348,7 @@ details {
 
 /* PAYMENT FORM */
 
-.confirm-button{
+.confirm-button {
   margin-left: 1rem;
   margin-top:2rem;
   margin-bottom:2rem;
@@ -355,18 +356,19 @@ details {
   text-align: center;
 }
 
-.test-form{
+.test-form {
   width:50%;
 }
-.form{
+
+.form {
   margin: 2rem 0;
 }
 
-.product-preview{
+.product-preview {
   margin-top: 2rem;
 }
 
-.payment-form, .cart-preview{
+.payment-form, .cart-preview {
   padding-left:1rem;
   padding-right: 3em;
 
@@ -374,11 +376,11 @@ details {
   height:100%;
 }
 
-.product{
+.product {
   margin-top:1rem;
 }
 
-.checkout-header{
+.checkout-header {
   margin-top:3rem;
   margin-bottom:3rem;
   margin-left:1rem;
@@ -386,29 +388,30 @@ details {
   border-bottom: #B33A37 2px solid;
 }
 
-.cart-name-preview{
+.cart-name-preview {
   padding-bottom:0.1rem;
   border-bottom:1px #E0E0E0 solid;
   display:block;
 }
 
-.quantity{
+.quantity {
   margin-top:1.5rem;
   margin-bottom:0.2rem;
 }
 
 /* CART */
-.price{
+.price {
   padding-top:0.6rem;
 }
-.checkout{
+
+.checkout {
   padding:0;
 }
 
-.shipping{
+.shipping {
   padding:1rem 1rem;
 }
-.purchase{
+.purchase {
   width:auto;
   text-align: center;
   justify-content: center;
@@ -416,43 +419,42 @@ details {
   align-items: center;
 }
 
-.checkout-image{
+.checkout-image {
   width:50%;
   height:50%;
 }
 
-.cart-guide{
+.cart-guide {
   padding-left:2rem;
   padding-right:1rem;
   padding-bottom:2rem;
   height:100%;
 }
 
-.cart-info{
+.cart-info {
   padding-left:1rem;
 }
 
-.cart-guide-info{
+.cart-guide-info {
   margin-bottom:2rem;
 }
 /* OTHER */
-.art-direction{
+.art-direction {
   width:50%;
   height:50%;
 }
 
-.right-text{
+.right-text {
   float:right;
 }
 
-
-.nav-tester{
+.nav-tester {
   display:block;
   width:auto;
   justify-content: space-evenly;
 }
 
-.guide{
+.guide {
   width:50%;
 }
 
@@ -469,7 +471,7 @@ details {
   color: #151515;
 }
 
-.side-navbar a{
+.side-navbar a {
   padding-left:2rem;
   padding-top:0.5rem;
   padding-bottom:0.5rem;
@@ -485,25 +487,28 @@ details {
   padding: 0px 10px;
 }
 
-.side-logo{
+.side-logo {
   padding-left:5rem;
   font-size:6rem;
   color:white;
 }
 
-.sub-heading{
+.sub-heading {
   border-bottom:1px #E0E0E0 solid;
 }
 
-.product-photo{
+.product-photo {
   border-bottom:1px #E0E0E0 solid;
   margin-bottom:1rem;
 }
 
 /* NAVIGATION BAR STYLING */
-nav{
-  position:fixed;
-  width:100%;
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  top: 0;
 }
 
 /* nav ul{
@@ -533,17 +538,20 @@ nav.black ul{
   cursor: pointer;
 } */
 
-.banner-line{
+.banner-line {
   width: 20%;
-  height: auto;
+  height: 45px;
+  margin: 1.5rem 0rem 0.5rem 1rem;
   background: linear-gradient(270deg, #B33A37 0%, rgba(179, 58, 55, 0) 100%);
-  flex:2;}
-
-.mirror{
-  transform: rotate(-180deg);
+  flex:2;
 }
 
-.logo{
+.mirror {
+  transform: rotate(-180deg);
+  margin: 1.5rem 1rem 0.5rem 0rem;
+}
+
+.logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -552,8 +560,7 @@ nav.black ul{
   background: #151515;
 }
 
-.menu-items{
-
+.menu-items {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -562,16 +569,18 @@ nav.black ul{
   background: #151515;
   padding: 0.5rem 1.5rem 1rem 1.5rem;
 }
+
 .menu-items a {
   white-space: nowrap;
-  border-bottom:solid #151515 3px;
+  border-bottom: solid #151515 3px;
   padding: 0.5rem 1.5rem;
   margin:0 0.5rem;
-  }
-
-.menu-items .dropdown{
-display: none;
 }
+
+.menu-items .dropdown {
+  display: none;
+}
+
 /*
 .menu-items{
   padding: 1.5rem 0;
@@ -581,8 +590,6 @@ margin:0 2vw;
 white-space: nowrap;
 border-bottom:solid #151515 3px;
 } */
-
-
 
 /* #navbar a {
   float: left;
@@ -618,8 +625,6 @@ padding-top:5rem;
   display:flex;
 }
 
-
-
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -638,33 +643,30 @@ padding-top:5rem;
   /* background-color: #f1f1f1; */
 }
 
-.toggle{
+.toggle {
   display:none;
 }
 
 /* SECTION NAVIGATION STYLING */
-.link-nav{
+.link-nav {
   padding: 13rem 0 2rem 0;
   margin-left: 2rem;
-
 }
 
-.extra-padding{
+.extra-padding {
   padding-top:10rem;
 }
 
-.updates{
+.updates {
   display:flex;
   flex:row;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.updates div{
+.updates div {
   padding: 1rem;
 }
-
-
 
 .home-banner .banner-button {
   margin-left:7%;
@@ -678,4 +680,11 @@ padding-top:5rem;
   cursor: pointer;
 
   text-align: center;
+}
+
+footer {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
