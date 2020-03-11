@@ -16,6 +16,20 @@
   justify-content: space-around;
 }
 
+.news-content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-weap:wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+}
+
 .left-content {
   -webkit-flex: 1 1 18em;
   -ms-flex: 1 1 18em;
@@ -395,6 +409,7 @@ flex:1;
   .content{
     padding-top:13rem;
   }
+
   .extra-padding {
     padding-top:10rem;
   }
