@@ -11,6 +11,20 @@
   transition-duration: 1s;
 }
 
+
+a:visited{
+  color:#151515;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+a:hover{
+  color:#B33A37;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+  text-decoration: underline;
+}
+
+
 .menu-items a, .menu-items a:active, .menu-items a:active {
   color:#E1E1E1;
 }
@@ -65,6 +79,7 @@ a.sample-link-button:hover {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
 
 input[type=text]:hover {
 
