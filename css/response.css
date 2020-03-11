@@ -232,9 +232,13 @@ textarea {
   }
 
   .home-banner .banner-button{
-    margin-left:7%;
-    width:30%;
     transform: translate(0%, -180%);
+    padding: 0.5rem;
+    margin: auto;
+  }
+
+  .updates div {
+    padding: 1rem 2rem 1rem 2rem;
   }
 }
 
@@ -261,6 +265,10 @@ textarea {
     margin-left:7%;
     width:30%;
     transform: translate(0%, -180%);
+  }
+
+  .updates div {
+    padding: 1rem 2rem 1rem 2rem;
   }
 }
 
