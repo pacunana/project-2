@@ -276,12 +276,14 @@ input[type=radio] {
 
 .product {
   max-width: 50%;
+  max-height: 50%;
   padding: 1rem;
 }
 
 img {
   max-width: 100%;
-  width: auto;
+  max-height: 100%;
+ 
 }
 
 summary {
@@ -395,6 +397,10 @@ details {
 
 }
 
+.checkout-image{
+  width:100%;
+  height:100%;
+}
 .cart-name-preview {
   padding-bottom:0.1rem;
   border-bottom:1px #E0E0E0 solid;
