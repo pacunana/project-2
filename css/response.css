@@ -161,6 +161,27 @@ textarea {
   font-size: 1rem;
 }
 
+
+
+.news-listing div {
+  padding: 1rem;
+}
+.news-listing{
+  display:flex;
+  max-width: 1000px;
+  flex-direction: row;
+}
+.event-full{
+padding:2rem;
+flex:1;
+}
+
+.coming-soon-full{
+  padding:2rem;
+  flex:1;
+}
+
+
 @media (min-width: 57rem) {
   .navbar{
     display: flex;
@@ -188,6 +209,7 @@ textarea {
     justify-content: flex-end;
   }
 }
+
 
 @media (max-width: 57rem) {
   .logo{
@@ -269,6 +291,11 @@ textarea {
     display: flex;
     flex-direction: column;
     padding: 0px;
+  }
+
+  .news-listing{
+    display: flex;
+    flex-direction: column;
   }
 
   .events {
