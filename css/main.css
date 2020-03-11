@@ -64,6 +64,7 @@ a.sample-link-button {
   width: 100%;
   border: none;
   border-radius: 2px;
+  margin-bottom: 1rem;
 }
 
 /* SUBMIT AND RESET */
@@ -268,7 +269,7 @@ input[type=radio] {
 
 .product {
   max-width: 50%;
-  padding: 14px;
+  padding: 1rem;
 }
 
 img {
