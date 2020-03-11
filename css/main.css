@@ -68,7 +68,44 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
+<<<<<<< Updated upstream
 /* SIDE NAVIGATION BAR */
+=======
+/* SUBMIT AND RESET */
+.srbutton {
+  display: flex inline;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+  overflow: hidden;
+  background-color: #E1E1E1;
+}
+
+.navbar div {
+  display:none;
+}
+
+.navbar .toggle {
+  display: inline-block;
+}
+
+.navbar .nav-link {
+  float: left;
+  display: block;
+  padding: 1.5em 1.5rem;
+
+}
+
+/* .navbar .nav-link:hover {
+  border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
+  color: #E1E1E1;
+} */
+>>>>>>> Stashed changes
 
 .side-navbar .nav-link:hover {
 background-color: #B33A37;  color: #E1E1E1;
@@ -220,9 +257,18 @@ input[type=radio] {
 
 .product {
   max-width: 50%;
-  max-height: 50%;
+  /* max-height: 100%; */
   padding: 1rem;
 }
+<<<<<<< Updated upstream
+=======
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+>>>>>>> Stashed changes
 summary {
   font-weight: 600;
   font-size: 12px;
@@ -565,4 +611,3 @@ footer {
 .price-point{
   margin-top:1.5rem;
 }
-
