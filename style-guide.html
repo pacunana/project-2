@@ -18,7 +18,11 @@
 
     <section class="navigation">
       <div class="side-navbar nav-tester">
-        <h1 class="side-logo">NAVBAR</h1>
+          <div class="logo">
+              <div class="banner-line mirror"></div>
+                <h1 class="logo">REWIND</h1>
+              <div class="banner-line"></div>
+            </div>
         <a href="#interactive_elements" class="nav-link">INTERACTIVE ELEMENTS</a>
         <a href="#text_elements" class="nav-link">TEXT ELEMENTS</a>
         <a href="#combined_elements" class="nav-link">COMBINED ELEMENTS</a>
@@ -36,13 +40,13 @@
       <h2 class="sub-heading">In-Text Link</h2>
 
       <div class='info-box'>
-        <a href="https://www.vinylrecords.ca" class="citation-link">Click</a> to go to vinylrecords
+        <a href="https://www.vinylrecords.ca" class="citation-link">Click to go to Vinyl Records!</a>
       </div>
 
       <h2 class="sub-heading">Submit and Reset Button</h2>
       <div class='info-box srbutton'>
         <button class="button button1" type="submit" value="Submit">SUBMIT</button>
-        <button class="button button2" type="reset" value="Reset">RESET</button>
+        <button class="button button1" type="reset" value="Reset">RESET</button>
       </div>
 
       <h2 class="sub-heading">Text Input Field and Label</h2>
@@ -121,41 +125,6 @@
       <h2 class="sub-heading">Main Navigation</h2>
 
       <div class ="info-box">
-          <div class="header style-guide">
-              <div class="banner">
-              <div class="banner-line mirror"></div>
-              <h1 class="logo">REWIND</h1>
-              <div class="banner-line"></div>
-              </div>
-            </div>
-            <nav id="navbar" class="nav-bar">
-              <ul class="menu-items">
-                <li><a href="javascript:void(0)">New Releases</a></li>
-                <li><a href="javascript:void(0)">Vinyls</a></li>
-                <li><a href="javascript:void(0)">Cassettes</a></li>
-                <li><a href="javascript:void(0)">Accessories</a></li>
-                <li><a href="javascript:void(0)">About</a></li>
-                <li><a href="javascript:void(0)">Contact</a></li>
-                <li><a href="javascript:void(0)">Cart</a></li>
-                <li><a href="javascript:void(0)">Search</a></li>
-            </ul>
-          </nav>
-          <div class="toggle menu-items">
-          <a href="#" onclick="dropdown()">Menu
-          </a>
-          <div id="dropdown-content">
-              <ul class="menu-items">
-                  <li><a href="javascript:void(0)">New Releases</a></li>
-                  <li><a href="javascript:void(0)">Vinyls</a></li>
-                  <li><a href="javascript:void(0)">Cassettes</a></li>
-                  <li><a href="javascript:void(0)">Accessories</a></li>
-                  <li><a href="javascript:void(0)">About</a></li>
-                  <li><a href="javascript:void(0)">Contact</a></li>
-                  <li><a href="javascript:void(0)">Cart</a></li>
-                  <li><a href="javascript:void(0)">Search</a></li>
-              </ul>
-            </div>
-          </div>
 
       </div>
 
@@ -236,8 +205,9 @@
             </form>
 
           </div>
-            <button class="button purchase">Make Purchase</button>
-
+          <form action="cart.html">
+              <button class="button-product">MAKE PURCHASE</button>
+            </form>
         </div>
 
       </div>
@@ -269,6 +239,9 @@
               <h4 class=shipping-text>Tax<span class="right-text">$3</span></h4>
             </div>
             <h2 class="total-price">Total Price:<span class="right-text">$26</span></h2>
+            <form action="checkout.html">
+                <button class="button-product">PROCEED TO CHECKOUT</button>
+              </form>
           </div>
 
       </div>
@@ -286,6 +259,9 @@
             <label>Enter Review</label>
             <textarea name="review" placeholder="Enter Review Here"></textarea>
           </div>
+          <form action="home.html">
+              <button class="button-product">LEAVE REVIEW</button>
+            </form>
         </form>
       </div>
     </section>
@@ -297,8 +273,12 @@
       <h2 class="sub-heading">Sample Templates </h2>
 
       <div class="info-box">
-        <a href="listing.html" class="sample-link-button">PRODUCT LISTING</a>
-        <a href="cart.html" class="sample-link-button">CHECKOUT</a>
+          <form action="vinyl.html">
+              <button class="button-product">PRODUCT LISTING</button>
+            </form>
+            <form action="cart.html">
+                <button class="button-product">CHECKOUT</button>
+              </form>
       </div>
 
     </section>

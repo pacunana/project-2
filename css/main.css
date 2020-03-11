@@ -28,7 +28,7 @@ ul, ol {
 }
 
 .heading {
-  color:#4777E2;
+  color:#B33A37;
   padding-top:1rem;
 }
 
@@ -94,22 +94,29 @@ a.sample-link-button {
   float: left;
   display: block;
   padding: 1.5em 1.5rem;
+  
 }
 
-.navbar .nav-link:hover {
-  background-color: #507BC5;
+/* .navbar .nav-link:hover {
+  border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
+  color: #E1E1E1;
+} */
+
+.side-navbar .nav-link:hover {
+background-color: #B33A37;  color: #E1E1E1;
+}
+
+.side-navbar .nav-link:visited {
   color: #E1E1E1;
 }
 
-.side-navbar .nav-link:hover {
-  background-color: #E1E1E1;
-  color: #151515;
+.side-navbar .nav-link {
+  color: #E1E1E1;
 }
-
-.navbar .nav-link:active {
+/* .navbar .nav-link:active {
   background-color: #507BC5;
   color: white;
-}
+} */
 
 .navbar .toggle {
   padding: 1em;
@@ -462,10 +469,10 @@ details {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #4777E2;
+  background-color: #151515;
   overflow-x: hidden;
   padding-top: 20px;
-  color: #151515;
+  color: #E1E1E1;
 }
 
 .side-navbar a {
@@ -487,7 +494,7 @@ details {
 .side-logo {
   padding-left:5rem;
   font-size:6rem;
-  color:white;
+  color:#B33A37;
 }
 
 .sub-heading {

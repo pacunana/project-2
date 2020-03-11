@@ -80,6 +80,7 @@ a.sample-link-button:hover {
   transition-duration: 0.4s;
 }
 
+
 input[type=text]:hover {
 
   border: .5px #212121 solid;
