@@ -392,6 +392,9 @@ flex:1;
     display: none;
   }
 
+  .content{
+    padding-top:13rem;
+  }
   .extra-padding {
     padding-top:10rem;
   }

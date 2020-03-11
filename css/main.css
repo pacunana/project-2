@@ -164,7 +164,7 @@ input[type=radio] {
 /*  ABOUT US PAGE */
 .about {
   max-width: 800px;
-  margin: 1rem 4rem;
+  margin: 8rem auto;
 }
 
 .about-container a {
@@ -509,10 +509,7 @@ nav {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  overflow: hidden;
-  padding-bottom: 8rem;
-  /* background-color: #f1f1f1; */
-}
+  overflow: hidden;}
 
 .toggle {
   display:none;
@@ -568,3 +565,4 @@ footer {
 .price-point{
   margin-top:1.5rem;
 }
+

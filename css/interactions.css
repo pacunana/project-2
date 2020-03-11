@@ -18,8 +18,9 @@ a:hover{
   color:#B33A37;
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-duration: 0.5s;
-  text-decoration: underline;
 }
+
+
 
 
 .menu-items a, .menu-items a:active, .menu-items a:active {
