@@ -1,9 +1,22 @@
-/* GENERAL LAYOUT */
+/* GENERAL CONTENT LAYOUT */
 body{
   padding:0;
   margin:0;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul, ol {
+  margin-top:0;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+
+/* STYLE GUIDE COMPONENTS */
 .info-box {
   padding-bottom: 4rem;
   padding-top:3rem;
@@ -21,22 +34,16 @@ body{
   padding:0.5rem 0;
 }
 
-ul, ol {
-  margin-top:0;
-  margin-bottom:0;
-  padding-bottom:0;
-}
-
 .heading {
   color:#B33A37;
   padding-top:1rem;
 }
 
 /* LANDING PAGE */
-
 .event-head, .soon-head {
   padding-bottom: 1rem;
 }
+
 
 /* BUTTONS */
 .button {
@@ -46,16 +53,10 @@ ul, ol {
   border: none;
   border-radius: 2px;
   text-align: center;
-  font-family:
 }
 
-a.sample-link-button {
-  background:#E0E0E0;
-  padding: 1.5em 1.5rem;
-  border-radius: 4px;
-}
 
-/*  PRODUCT BUTTON */
+/* BUTTON */
 .button-product {
   background-color: #E1E1E1;
   color: #151515;
@@ -67,40 +68,7 @@ a.sample-link-button {
   margin-bottom: 1rem;
 }
 
-/* SUBMIT AND RESET */
-.srbutton {
-  display: flex inline;
-  align-items: flex-start;
-  flex-direction: row;
-}
-
-
-/* NAVIGATION BAR */
-
-.navbar {
-  overflow: hidden;
-  background-color: #E1E1E1;
-}
-
-.navbar div {
-  display:none;
-}
-
-.navbar .toggle {
-  display: inline-block;
-}
-
-.navbar .nav-link {
-  float: left;
-  display: block;
-  padding: 1.5em 1.5rem;
-  
-}
-
-/* .navbar .nav-link:hover {
-  border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
-  color: #E1E1E1;
-} */
+/* SIDE NAVIGATION BAR */
 
 .side-navbar .nav-link:hover {
 background-color: #B33A37;  color: #E1E1E1;
@@ -113,10 +81,6 @@ background-color: #B33A37;  color: #E1E1E1;
 .side-navbar .nav-link {
   color: #E1E1E1;
 }
-/* .navbar .nav-link:active {
-  background-color: #507BC5;
-  color: white;
-} */
 
 .navbar .toggle {
   padding: 1em;
@@ -124,9 +88,7 @@ background-color: #B33A37;  color: #E1E1E1;
   vertical-align:middle;
 }
 
-/* TEXT INPUT */
-
-/* help from https://www.bitdegree.org/learn/css-form */
+/* INPUT FIELDS */
 input[type=text] {
   background-color: white;
   border: 0.5px #E0E0E0 solid;
@@ -135,9 +97,6 @@ input[type=text] {
   padding:0.5rem 0.75rem;
 }
 
-
-/* NUMBER INPUT */
-/* help from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_number */
 input[type=number] {
   background-color: white;
   text-align: center;
@@ -146,19 +105,11 @@ input[type=number] {
   padding:0.5rem 0.5rem;
 }
 
-
-/* RADIO BUTTON */
 input[type=radio] {
   margin-right:1rem;
 }
 
 /* PRODUCT PAGE */
-
-/* .banner{
-  border-bottom: #4777E2 solid 2px;
-  padding-top: 2rem;
-} */
-
 .filter-section {
   padding-top:0rem;
   display:flex;
@@ -216,13 +167,6 @@ input[type=radio] {
   margin: 8rem auto;
 }
 
-/* .about-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-} */
-
 .about-container a {
   color: black;
   text-decoration: none;
@@ -279,13 +223,6 @@ input[type=radio] {
   max-height: 50%;
   padding: 1rem;
 }
-
-img {
-  max-width: 100%;
-  max-height: 100%;
- 
-}
-
 summary {
   font-weight: 600;
   font-size: 12px;
@@ -433,7 +370,6 @@ details {
 }
 
 
-
 .cart-guide {
   padding-left:2rem;
   padding-right:1rem;
@@ -521,33 +457,6 @@ nav {
   top: 0;
 }
 
-/* nav ul{
-  list-style: none;
-  background: #151515;
-  overflow:hidden;
-  text-align:center;
-  margin:0;
-  padding:0;
-  transition:1s;
-  width: 100%;
-} */
-/*
-nav.black ul{
-  background:#151515;
-} */
-
-/* nav a{
-  display: inline-block;
-  padding: 1.5rem;
-} */
-
-/* .menu-icon{
-  text-align:right;
-  display: none;
-  box-sizing: border-box;
-  cursor: pointer;
-} */
-
 .banner-line {
   width: 20%;
   height: 45px;
@@ -591,61 +500,12 @@ nav.black ul{
   display: none;
 }
 
-/*
-.menu-items{
-  padding: 1.5rem 0;
-}
-.menu-items a {
-margin:0 2vw;
-white-space: nowrap;
-border-bottom:solid #151515 3px;
-} */
-
-/* #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-} */
-
-/* .content {
-padding-top:5rem;
-} */
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* .sticky + .content {
-  padding-top: 100px;
-} */
-/*
-.toggle {
-  display: none;
-}
-
-#dropdown-content{
-  background: #4777E2;
-  display:flex;
-}
-
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
@@ -682,7 +542,6 @@ padding-top:5rem;
   margin-left:7%;
   width:30%;
   transform: translate(0%, -280%);
-  /* -ms-transform: translate(-50%, -50%); */
   background-color: #E1E1E1;
   color:#151515;
 

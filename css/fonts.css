@@ -157,15 +157,6 @@ button{
   padding:0;
 }
 
-a.sample-link-button{
-  font-family:  'montserrat-bold', 'Times New Roman', sans-serif;
-  font-size: 1rem;
-  padding: 1rem 2em;
-  text-align: center;
-  text-decoration: none;
-}
-
-
 
 /* NAVIGATION BAR */
 .logo{

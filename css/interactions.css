@@ -1,6 +1,3 @@
-/* GENERAL */
-
-/* ANCHOR TAGS */
 * {
   scroll-behavior: smooth;
 }
@@ -43,12 +40,6 @@ a:hover{
   color:white;
 }
 
-a.sample-link-button:hover {
-  background:#4777E2;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  color:#E1E1E1;
-}
 
 .button:focus, .button:hover {
   background-image: linear-gradient(to right, #507BC5 , #B33A37);
