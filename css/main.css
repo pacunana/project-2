@@ -31,7 +31,7 @@ ul, ol {
 }
 
 .citation-link {
-  padding:0.5rem 0;
+  padding: 0.5rem 0rem;
 }
 
 .heading {
@@ -68,9 +68,7 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
-<<<<<<< Updated upstream
 /* SIDE NAVIGATION BAR */
-=======
 /* SUBMIT AND RESET */
 .srbutton {
   display: flex inline;
@@ -105,7 +103,6 @@ ul, ol {
   border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
   color: #E1E1E1;
 } */
->>>>>>> Stashed changes
 
 .side-navbar .nav-link:hover {
 background-color: #B33A37;  color: #E1E1E1;
@@ -260,15 +257,12 @@ input[type=radio] {
   /* max-height: 100%; */
   padding: 1rem;
 }
-<<<<<<< Updated upstream
-=======
 
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
->>>>>>> Stashed changes
 summary {
   font-weight: 600;
   font-size: 12px;
@@ -384,6 +378,7 @@ details {
   width:100%;
   height:100%;
 }
+
 .cart-name-preview {
   padding-bottom:0.1rem;
   border-bottom:1px #E0E0E0 solid;
@@ -595,13 +590,26 @@ nav {
   text-align: center;
 }
 
+.citation-section {
+  margin: 2rem auto;
+  padding: 0rem 2rem;
+  max-width: 800px;
+}
+
 footer {
   background-color: #151515;
   color: white;
   text-align: center;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.footer-section {
+  max-width: 80%;
+  padding: 1rem;
+}
 
 .listing-button{
   margin-top:0.5rem;
