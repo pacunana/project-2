@@ -228,7 +228,7 @@ textarea {
   }
 
   .landing-heading {
-    margin: 0rem 2rem;
+    margin: 1rem 2rem;
   }
 
   .home-banner .banner-button{
@@ -258,7 +258,7 @@ textarea {
   }
 
   .landing-heading {
-    padding: 0rem 2rem;
+    margin: 1rem 2rem;
   }
 
   .home-banner .banner-button{
@@ -284,7 +284,7 @@ textarea {
   }
 
   .landing-heading {
-    padding: 0;
+    margin: 1rem 2rem;
   }
 
   .home-banner .banner-button{
@@ -340,7 +340,7 @@ textarea {
   }
 
   .landing-heading {
-    padding: 0;
+    margin: 1rem 2rem;
   }
 
   .home-banner .banner-button{
@@ -374,10 +374,6 @@ textarea {
     display: none;
   }
 
-  .content {
-    padding-top:12rem;
-  }
-
   .extra-padding {
     padding-top:10rem;
   }
@@ -387,7 +383,7 @@ textarea {
   }
 
   .landing-heading {
-    padding: 0;
+    margin: 1rem 2rem;
   }
 
   .home-banner .banner-button {
