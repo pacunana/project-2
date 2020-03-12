@@ -8,6 +8,7 @@
   transition-duration: 1s;
 }
 
+
 a:visited{
   color:#151515;
   -webkit-transition-duration: 0.5s; /* Safari */
@@ -126,6 +127,9 @@ textarea:hover {
   transition-duration: 0.4s;
 }
 
+.footer-section a:visited{
+  color:#E1E1E1;
+  }
 .footer-section a:link {
   color: white;
 }

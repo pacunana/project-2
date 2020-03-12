@@ -279,6 +279,9 @@ flex:1;
     flex-direction: column;
     margin: 0rem 1rem;
   }
+  .product{
+    max-width: 100%;
+  }
 
   h3 {
     padding-bottom: 1rem;
