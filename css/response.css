@@ -273,6 +273,12 @@ flex:1;
   }
 }
 
+@media (min-width: 500px){
+  .related-card{
+    max-width: 200px;
+  }
+}
+
 @media (max-width: 500px) {
   .selected {
     display: flex;

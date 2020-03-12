@@ -229,17 +229,6 @@ input[type=radio] {
   max-width: 50%;
 }
 
-.related-container a {
-  color: black;
-  text-decoration: none;
-}
-
-.related-container a:hover, .container1 a:focus {
-  color: #0F4C81;
-  transition: 0.5s ease;
-  text-decoration: none;
-  opacity: 0.5;
-}
 
 /*  SELECTED PRODUCT */
 
@@ -282,21 +271,8 @@ details {
   justify-content: center;
 }
 
-.related-container a {
-  color: black;
-  text-decoration: none;
-}
-
-.related-container a:hover, .container1 a:focus {
-  color: #0F4C81;
-  transition: 0.5s ease;
-  text-decoration: none;
-  opacity: 0.5;
-}
-
 .related-card {
-  max-width: 200px;
-  padding-bottom: 2rem;
+  padding: 0.5rem;
   width: auto;
   text-align: center;
 }
