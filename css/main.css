@@ -90,13 +90,15 @@ ul, ol {
 
 .navbar .toggle {
   display: inline-block;
+  padding: 1em;
+  color:black;
+  vertical-align:middle;
 }
 
 .navbar .nav-link {
   float: left;
   display: block;
   padding: 1.5em 1.5rem;
-
 }
 
 /* .navbar .nav-link:hover {
@@ -114,12 +116,6 @@ background-color: #B33A37;  color: #E1E1E1;
 
 .side-navbar .nav-link {
   color: #E1E1E1;
-}
-
-.navbar .toggle {
-  padding: 1em;
-  color:black;
-  vertical-align:middle;
 }
 
 /* INPUT FIELDS */
