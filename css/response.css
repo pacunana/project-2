@@ -277,6 +277,7 @@ flex:1;
   } */
 }
 
+}
 @media (max-width: 500px) {
   .selected {
     display: flex;
@@ -395,8 +396,6 @@ flex:1;
 @media screen and (max-width:800px){
   .extra-padding{
     padding-top:0rem;
-
-
   }
   .menu-items a {
     display: none;
@@ -454,6 +453,10 @@ flex:1;
   .payment-form, .cart-preview {
     flex:1.4;
   }
+  .checkout-image{
+    width:70%;
+    height:70%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -463,6 +466,7 @@ flex:1;
   .product-title-1, .product-title-2{
     text-align: left;
   }
+
 }
 
 @media (max-width: 1320px) {
