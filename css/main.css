@@ -491,7 +491,6 @@ details {
 
 /* NAVIGATION BAR STYLING */
 nav {
-  position: fixed;
   width: 100%;
   z-index: 1000;
   overflow: hidden;
