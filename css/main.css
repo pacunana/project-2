@@ -278,8 +278,7 @@ details {
 }
 
 .column-section {
-  display: column;
-  margin: 0rem 2rem 0rem 2rem;
+    margin: 0rem 2rem 0rem 2rem;
 }
 
 /* REVIEWS SECTION IN SELECTED PRODUCT*/
@@ -302,7 +301,6 @@ details {
 
 .review-time {
   margin-left: auto;
-  padding-left: auto;
 }
 
 /* PAYMENT FORM */
@@ -535,7 +533,7 @@ nav {
 
 .updates {
   display:flex;
-  flex:row;
+flex-direction: row;
   max-width: 1000px;
   margin: 0 auto;
 }
