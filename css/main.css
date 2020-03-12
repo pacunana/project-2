@@ -79,7 +79,7 @@ ul, ol {
 
 /* NAVIGATION BAR */
 
-.navbar {
+/* .navbar {
   overflow: hidden;
   background-color: #E1E1E1;
 }
@@ -99,7 +99,7 @@ ul, ol {
   float: left;
   display: block;
   padding: 1.5em 1.5rem;
-}
+} */
 
 /* .navbar .nav-link:hover {
   border-image: linear-gradient(270deg, #B33A37 0%, #507BC5 100%) 1 stretch;
@@ -195,6 +195,7 @@ input[type=radio] {
 .about {
   max-width: 800px;
   margin: 8rem auto;
+  padding: 0rem 1rem;
 }
 
 .about-container a {
@@ -295,7 +296,6 @@ details {
 
 .related-card {
   max-width: 200px;
-  padding-right: 2rem;
   padding-bottom: 2rem;
   width: auto;
   text-align: center;
