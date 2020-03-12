@@ -14,6 +14,8 @@
   -webkit-justify-content: space-around;
   -ms-justify-content: space-around;
   justify-content: space-around;
+
+
 }
 
 .news-content {
@@ -270,9 +272,9 @@ flex:1;
     padding: 1rem 2rem 1rem 2rem;
   }
 
-  .content{
+  /* .content{
     padding-top:8rem;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
@@ -387,11 +389,13 @@ flex:1;
   nav{
     position: fixed;
   }
+
 }
 
 @media screen and (max-width:800px){
   .extra-padding{
     padding-top:0rem;
+
 
   }
   .menu-items a {
@@ -412,16 +416,13 @@ flex:1;
     display: block;
     text-align: center;
   }
-
-}
-@media screen and (max-width: 900px) {
-
   .link-nav {
     display: none;
   }
+  
 
   .content {
-    padding-top:13rem;
+    padding-top:1rem;
   }
 
   .product-photo {
@@ -438,6 +439,11 @@ flex:1;
     width:30%;
     transform: translate(0%, -180%);
   }
+}
+
+
+@media screen and (max-width: 900px) {
+
 }
 
 @media(min-width:1000px) {
